@@ -1,0 +1,35 @@
+-- os comando são:
+
+-- sempre primeiro antes de subir (por ser um grupo)
+
+git pull
+-- atualiza puxa as alterações do GitHub pro seu repositório local
+
+git branch
+-- verifica a branch que vc está (as vezes ao lado do nome do arquivo no terminal já mostra o nome da branch em que vc está)
+
+git checkout header
+             footer
+             blog
+             contato
+             curso
+             cursos
+             post
+-- muda para a branch desejada
+--- (neste exemplo para a header - git checkout header )
+
+git add *
+-- para + de uma pasta ou arquivos alterados
+
+-- ou 
+
+git add nomedoarquivo.html
+-- quando alteramos somente um arquivo
+
+git push origin nomeDaBranch
+-- sempre de um push com nome da branch que vc estiver 
+--- (por exemplo conforme linha 18 - git push origin header)
+
+"o Amor se reflete em amor" MBE
+
+"Juntas somos melhores!"
