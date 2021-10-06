@@ -4,11 +4,9 @@
 
 ## No processo da Gama Academy
 
-<<<<<<< HEAD
 # <img src="./src/assets/img/EniacCordersGirls.JPG" alt="Squad Eniac Coders Girl's" height="40" width="40" style="max-width:100%;" /> Squad Eniac Coders,
-=======
+
 ## Desenvolvido pela
->>>>>>> 3cb332304e9ae84435654a25b4249c4187e1a238
 
 <img src="https://github.com/OrganizacaoProjetoFinalEniacCoders/-ProjetoFinal_EniacCoders/blob/main/src/assets/img/EniacCordersGirls.JPG" alt="Squad Eniac Coders Girl's" height="90" width="90" style="max-width:10%;" />
 
