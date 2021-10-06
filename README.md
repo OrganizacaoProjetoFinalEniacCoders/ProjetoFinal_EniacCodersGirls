@@ -2,7 +2,7 @@
 
 ## Desenvolvido pela
 
-# Squad Eniac Coders,
+# <img src="./src/assets/img/EniacCordersGirls.JPG" alt="Squad Eniac Coders Girl's" height="40" width="40" style="max-width:100%;" /> Squad Eniac Coders,
 
 ## no processo da Gama Academy
 
