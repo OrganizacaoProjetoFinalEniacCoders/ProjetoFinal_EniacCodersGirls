@@ -1,12 +1,14 @@
 ## Projeto Final Din Din
 
+# Para ingresso com louvor no banco BV.
+
+## No processo da Gama Academy
+
 ## Desenvolvido pela
 
-# Squad Eniac Coders,
+<img src="https://github.com/OrganizacaoProjetoFinalEniacCoders/-ProjetoFinal_EniacCoders/blob/main/src/assets/img/EniacCordersGirls.JPG" alt="Squad Eniac Coders Girl's" height="90" width="90" style="max-width:10%;" />
 
-## no processo da Gama Academy
-
-# para ingresso com louvor no banco BV.
+# Eniac Coders Girl's
 
 <a href="https://www.linkedin.com/in/alessandra-cruz-3970006a/" target="_blank">
   <img src="https://media-exp1.licdn.com/dms/image/C5603AQH3NV-k4NUv7g/profile-displayphoto-shrink_200_200/0/1632150514370?e=1639008000&v=beta&t=M7OzXUmXkqla4ReFP22taTRxFhy9kld4tcparbS5E7c" alt="Alessandra Cruz" height="100" width="100" style="max-width:100%;" />
