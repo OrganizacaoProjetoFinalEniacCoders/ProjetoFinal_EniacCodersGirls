@@ -10,7 +10,7 @@
 
 .logo-footer > img {
   position: relative;
-  margin: 53px 128px 1213.43px 52.57px;
+  margin: 53px 128px auto 52.57px;
 }
 
 .um {
@@ -31,24 +31,12 @@
 
 button {
   position: absolute;
-  left: 70.42%;
-  right: 9.51%;
-}
-
-.dois {
-  top: 24.15%;
-  bottom: 51.21%;
-
   border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 62px;
 }
-.dois #doisB {
-  left: 73.26%;
-  right: 12.36%;
-  top: 30.92%;
-  bottom: 57.97%;
 
+button > span {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: normal;
@@ -61,29 +49,31 @@ button {
   color: #ffffff;
 }
 
-.tres {
-  top: 55.07%;
-  bottom: 20.29%;
-
-  border: 2px solid #ffffff;
-  box-sizing: border-box;
-  border-radius: 62px;
+.but1 {
+  left: 70.42%;
+  right: 9.51%;
+  top: 24.15%;
+  bottom: 51.21%;
 }
 
-.tres #tresB {
+.but1 #textBut1 {
   left: 73.26%;
   right: 12.36%;
+  top: 30.92%;
+  bottom: 57.97%;
+}
+
+.but2 {
+  position: absolute;
+  left: 70.42%;
+  right: 9.51%;
+  top: 55.07%;
+  bottom: 20.29%;
+}
+
+.but2 #textBut2 {
   top: 61.84%;
   bottom: 26.57%;
-
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-
-  color: #ffffff;
 }
 
 /* 
