@@ -15,6 +15,7 @@ git checkout header
              curso
              cursos
              post
+             inicio
 -- muda para a branch desejada
 --- (neste exemplo para a header - git checkout header )
 
