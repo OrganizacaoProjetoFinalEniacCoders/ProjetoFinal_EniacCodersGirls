@@ -1,9 +1,94 @@
+*{
+    margin:2px;
+    padding: 2px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+    padding: 10px 0px 20px 0px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF4081;
+    
+}
+
+.form{
+    padding: 10px 20px 10px 100px;
+    margin: 10px 150px 10px 10px;
+    width: 30%;
+
+}
+
 .form input{
-	width: 30%;
-    padding: 2px 2px;
+	width: 100%;
+    padding: 4px 10px;
     border-radius: 6px;
     text-align: left;
     display: flex;
     border-width: thin;
-    border-color: #686868;
+    border: 1px solid #686868;
+    margin-bottom: 1rem;
+    
 }
+
+.form textarea{
+	width: 100%;
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-align: left;
+    display: flex;
+    border-width: thin;
+    border: 1px solid #686868;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+
+.form button{
+    width: 25%;
+    padding: 5px 5px 7px 7px;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    background: #FF4081;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: auto;
+    margin-left: auto;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.container form{
+    float: left;
+    text-align: center;
+}
+
+.section{
+    height: 100vh;
+}
+ 
+.content div img{
+    width: 50%;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+/* div{
+    display: inline-block;
+} */
+
+/* .content1{
+    justify-content: space-between;
+} */
