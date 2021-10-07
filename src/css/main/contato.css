@@ -1,0 +1,9 @@
+.form input{
+	width: 30%;
+    padding: 2px 2px;
+    border-radius: 6px;
+    text-align: left;
+    display: flex;
+    border-width: thin;
+    border-color: #686868;
+}
