@@ -1,5 +1,5 @@
 /* footer */
-.logo-footer {
+.footer {
   position: absolute;
   width: 1457px;
   height: 207px;
@@ -9,8 +9,8 @@
   font-family: Ubuntu;
 }
 
-.logo-footer > img {
-  position: relative;
+.logo-footer {
+  position: center;
   margin: 53px 128px auto 52.57px;
 }
 
