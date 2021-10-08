@@ -4,19 +4,35 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-p{
+legend{
     padding: 10px 0px 20px 0px;
     font-size: 40px;
     font-weight: 700;
     color: #FF4081;
+   
+    
+}
+
+/* #form1{
+    flex: 1;
+} */
+
+div{
+    padding: 10px;
     
 }
 
 .form{
-    padding: 10px 20px 10px 100px;
-    margin: 10px 150px 10px 10px;
+    
     width: 30%;
-
+    padding: 10px;
+    margin: 10px;
+    /* padding: 10px 20px 10px 100px; */
+    /* margin: 10px 150px 10px 10px; */
+    padding-right: 150px;
+    
+    
+    
 }
 
 .form input{
@@ -56,8 +72,11 @@ p{
     cursor: pointer;
     border-radius: 15px;
     margin-top: auto;
-    margin-left: auto;
-    font-family: 'Nunito', sans-serif;
+    margin-left: auto;    
+}
+.content{
+    width: 40%;
+    padding: 0;
     
 }
 
@@ -65,6 +84,8 @@ p{
     display: flex;
     justify-content: center;
     width: 90%;
+    
+    
 }
 
 .container form{
@@ -85,6 +106,10 @@ img {
     height: 400px;
 }
 
+
+.content{
+    width: 80%;
+}
 /* div{
     display: inline-block;
 } */
@@ -92,3 +117,103 @@ img {
 /* .content1{
     justify-content: space-between;
 } */
+
+@media only screen and (max-width: 480px) {
+
+legend{
+    padding: 5px 0px 5px 0px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #FF4081;
+    width: 110%;
+}
+
+.container-flex{
+    
+    flex-direction:column;
+    width: 90%;
+    position: relative;
+    margin:0px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+form{
+    text-align: center;
+}
+
+.container-flex form{
+    width: 90%;
+    align-items: center;
+    
+}
+div form input{
+    display: flex;
+}
+
+
+div .img {
+    
+    padding: 0;
+}
+img {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    padding: 0px;
+}
+
+.form input{
+    width: 50%;
+    padding: 2px 2px;
+    margin: 10px 0px 10px 80px;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 10px;
+    display: flex;
+    border-width: thin;
+    border: 1px solid #686868;
+    margin-bottom: 10px;
+    
+}
+
+.form textarea{
+	width: 50%;
+    padding: 2px 2px;
+    margin: 10px 0px 10px 80px;
+    border-radius: 6px;
+    text-align: left;
+    display: flex;
+    border-width: thin;
+    border: 1px solid #686868;
+    margin-bottom: 1rem;
+    resize: none;
+    font-size: 10px;
+}
+
+.form {
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+.form button{
+    width: 20%;
+    padding: 2px 2px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 8px;
+    margin: 10px 0px 10px 40px;
+    
+}
+
+#content1{
+    display: block;
+}
+
+}
