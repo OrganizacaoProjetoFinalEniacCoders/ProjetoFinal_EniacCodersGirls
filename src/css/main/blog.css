@@ -165,10 +165,10 @@ h1 {
     margin: 0 2px;
     flex-wrap: wrap;
   }
-
+  /* 
   .first-content-blog {
     flex: 1;
-  }
+  } */
 
   .bg-image-blog {
     background-image: url("../../assets/img/dindin-imagens/ilustra-blog.png");
