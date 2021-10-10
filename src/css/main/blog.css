@@ -3,8 +3,8 @@
 }
 
 .section1-blog {
-  display: flex;
-  justify-content: space-around;
+  display: block;
+  justify-content: space-evenly;
   align-items: center;
   padding: 20px;
 
