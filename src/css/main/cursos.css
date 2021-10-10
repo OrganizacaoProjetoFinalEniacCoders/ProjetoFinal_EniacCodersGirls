@@ -7,7 +7,7 @@
 
 
 .container-flex{
-    width: 80%;
+    width: 85%;
     margin: auto;
     display: flex;
     padding-bottom: 50px;
@@ -17,11 +17,17 @@
 }
 .curso1{
     margin-left: 50px;
+    margin-top: 30px;
     
 }
 
+.curso1 h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
 .curso1 p{
-    padding:50px 0px;
+    padding: 40px 0px 50px 0px;
 }
 
 .intro h1{
@@ -30,12 +36,14 @@
     color: #FF4081;
     padding-top: 20px;
     padding-bottom: 0px;
+    font-size: 50px;
 }
 
 .intro p{
     width: 80%; 
     margin: auto;
     color: #555555;
+    font-size: 15px;
 }
 
 h2{
@@ -44,24 +52,25 @@ h2{
 
 .curso1 button{
     border: none;
-    width: 150px;
-    height: 40px;
-    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
     background:#419488;
     color: #fff;
+    font-size: 18px;
     
 }
 
 hr{
     margin: 0px 70px;
-    border-top: 2px #C4C4C4 solid;
+    border-top: 4px #C4C4C4 solid;
 }
 
 @media only screen and (max-width: 767px){
     
 
 .intro h1{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -83,6 +92,7 @@ hr{
 main .container-flex{
     display: grid;
     margin: 0px 15px;
+    padding-bottom: 30px;
 }
 
 .imagem img{
@@ -101,6 +111,14 @@ h2{
     padding:20px 0px;
     font-size: 12px;
 }
+
+.curso1 h2{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
 
 .intro{
     text-align: center;
@@ -121,7 +139,7 @@ button{
 hr{
    border-top: 2px #C4C4C4 solid;
    margin: 0px 60px;
-   margin-top: 20px;
+  
 }
 
 }
