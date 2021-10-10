@@ -28,18 +28,12 @@
 }
 
 .curso-content img{
-    width: 250px;
-    height: 300px;
-    /* width: 100%; */
+    width: 240px;
+    height: 280px;
+    
 }
 
 
-/* .imagem img{
-   width: 100%;
-   margin-top: 40px;
-   
-
-} */
 
 .tituloPagina h1{
     color: #FF4081;
@@ -50,7 +44,7 @@
 .tituloPagina p{
     text-align: center;
     font-size: 12px;
-    /* padding-top: 50px; */
+    
 }
 p{
     padding: 30px 0px 60px 0px;
@@ -60,6 +54,11 @@ p{
 h1{
     padding-top: 40px;
     color: #2E948A;
+    font-size: 35px;
+}
+
+h4{
+    font-size: 18px;
 }
 
 .section-cursos .container h1{
@@ -136,6 +135,11 @@ p{
     height: 200px;
     margin: auto;
     width: 100%;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
 }
 }
 
