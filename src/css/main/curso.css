@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+.container-course {
+    overflow: auto;
+  }
+  
+  .courses {
+    background-color: #f7f7f7;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+  
+  .courses-padding {
+    padding-right: 14%;
+    padding-left: 14%;
+  }
+  
+  .courses-divider {
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background: #c4c4c4;
+    height: 3px;
+  }
+  
+  
+  @media (min-width: 280px) {
+    .banner-course {
+      margin-top: 93px;
+      margin-bottom: 80px;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .banner-course-image {
+      width: 100%;
+      height: fit-content;
+    }
+  
+    .course-class-video {
+      width: 100%;
+      height: fit-content;
+      min-height: 230px;
+    }
+  
+    .title-banner-course {
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 2.43em;
+      color: #ff4081;
+    }
+    
+    .description-banner-course {
+      font-family: Ubuntu;
+      font-weight: 300;
+      font-size: 1em;
+      display: flex;
+      align-items: center;
+      color: #000;
+    }
+  
+    .course-class-title {
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.5em;
+      margin-bottom: 26px;
+      color: #ff4081;
+    }
+    
+    .course-class-description {
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 1em;
+      display: flex;
+      align-items: center;
+      font-weight: normal;
+      color: #000000;
+    }
+  }
+  
+  
+  @media (min-width: 460px) {
+    .banner-course {
+      margin-top: 93px;
+      margin-right: 10%;
+      margin-left: 10%;
+      margin-bottom: 80px;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .banner-course-image {
+      width: 100%;
+      height: fit-content;
+    }
+  
+    .course-class-video {
+      width: 100%;
+      height: fit-content;
+      min-height: 230px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .banner-course {
+      margin-top: 93px;
+      margin-right: 10%;
+      margin-left: 10%;
+      margin-bottom: 80px;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .banner-course-container-texts {
+      width: 100%;
+    }
+  
+    .banner-course-image {
+      width: 70%;
+      height: fit-content;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  
+    .course-class-container {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  
+    .course-class-video {
+      max-width: 462px;
+      min-width: 261px;
+      align-self: center;
+    }
+  
+    .course-class-container-texts {
+      width: 100%;
+    }
+  
+    .title-banner-course {
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 3.43em;
+      line-height: 63px;
+      color: #ff4081;
+    }
+    
+    .description-banner-course {
+      font-family: Ubuntu;
+      font-weight: 300;
+      font-size: 1.25em;
+      display: flex;
+      align-items: center;
+      color: #000;
+    }
+  
+    .course-class-title {
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 2.1em;
+      line-height: 40px;
+      margin-bottom: 26px;
+      color: #ff4081;
+    }
+    
+    .course-class-description {
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 1.25em;
+      line-height: 23px;
+      display: flex;
+      align-items: center;
+      font-weight: normal;
+      color: #000000;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+  
+    .banner-course {
+      margin-top: 93px;
+      margin-right: 3%;
+      margin-left: 3%;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 80px;
+    }
+  
+  }
+  
+  @media (min-width: 1110px) {
+  
+    .banner-course {
+      margin-top: 93px;
+      margin-right: 10%;
+      margin-left: 5%;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 80px;
+    }
+  
+  }
+  
+  
+  @media (min-width: 1340px) {
+    .banner-course {
+      margin-top: 93px;
+      margin-right: 18%;
+      margin-left: 12%;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 80px;
+    }
+  
+    .banner-course-image {
+    
+      max-width: 380px;
+      height: fit-content;
+    }
+  
+    .course-class-container {
+      display: flex;
+      flex-direction: row;
+      align-self: flex-start;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  
+    .course-class-video {
+      max-width: 462px;
+      min-width: 261px;
+      margin-right: 8%;
+    }
+  
+    .course-class-container-texts {
+      width: 48%;
+    }
+  }
