@@ -1,0 +1,133 @@
+/* footer */
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  width: 100vw;
+  height: 207px;
+  left: 0;
+  top: 2371px;
+  background-color: #419488;
+  box-sizing: border-box;
+}
+
+.logo-footer {
+  position: center;
+  margin: 53px 128px auto 52.57px;
+}
+
+.nav-footer {
+  position: absolute;
+  left: 48.26%;
+  right: 51.81%;
+  top: 28.6%;
+  bottom: 34.3%;
+  text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #fff;
+}
+
+button {
+  position: absolute;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 62px;
+  margin-left: 50px;
+  padding: 10px;
+  width: 200px;
+
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button .textBut1,
+.textBut2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  text-decoration: none;
+  text-align: center;
+}
+
+.but1 {
+  left: 70.42%;
+  right: 9.51%;
+  top: 24.15%;
+  bottom: 51.21%;
+}
+
+.but1 .textBut1 {
+  left: 73.26%;
+  right: 12.36%;
+  top: 30.92%;
+  bottom: 57.97%;
+}
+
+.but2 {
+  position: absolute;
+  left: 70.42%;
+  right: 9.51%;
+  top: 55.07%;
+  bottom: 20.29%;
+}
+
+.but2 .textBut2 {
+  top: 61.84%;
+  bottom: 26.57%;
+}
+
+/*iPhone 5*/
+@media screen and (min-width: 568px) and (max-width: 320px) {
+}
+
+/*iPhone 6*/
+@media screen and (min-width: 667px) and (max-width: 375px) {
+}
+
+/*Smartphone*/
+@media screen and (max-width: 767px) {
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/*iPad*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/*Laptop*/
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+}
+
+/*Desktop*/
+@media screen and (min-width: 1050px) and (max-width: 1680px) {
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  div {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+}
+
+/*Desktop*/
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+}
