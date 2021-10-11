@@ -1,26 +1,33 @@
-/* footer */
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+footer {
+  width: 1440px;
+  height: 207px;
+}
+
 .footer {
   position: absolute;
-  width: 1457px;
-  height: 207px;
-  left: 0px;
-  top: 2371px;
+  width: 100vw;
   background-color: #419488;
-  font-family: Ubuntu;
+  box-sizing: border-box;
 }
 
 .logo-footer {
-  position: center;
-  margin: 53px 128px auto 52.57px;
+  position: absolute;
+  /* margin: 53px 128px auto 52.57px; */
+  top: 25.6%;
+  right: 84.27%;
+  bottom: 25.4%;
+  left: 8.89%;
 }
 
-.um {
+.nav-footer {
   position: absolute;
   left: 43.26%;
   right: 51.81%;
   top: 25.6%;
   bottom: 34.3%;
-
+  text-align: justify;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -34,11 +41,8 @@ button {
   border: 2px solid #fff;
   box-sizing: border-box;
   border-radius: 62px;
-
-  padding: 10px;
-  width: 200px;
-
-  text-align: center;
+  padding: 13px;
+  width: 400px;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -47,18 +51,18 @@ a {
   color: #fff;
 }
 
-button .textBut1,
+.button .textBut1,
 .textBut2 {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 23px;
-  /* identical to box height */
   text-decoration: none;
   text-align: center;
 }
 
 .but1 {
+  /* position: absolute; */
   left: 70.42%;
   right: 9.51%;
   top: 24.15%;
@@ -73,7 +77,7 @@ button .textBut1,
 }
 
 .but2 {
-  position: absolute;
+  /* position: absolute; */
   left: 70.42%;
   right: 9.51%;
   top: 55.07%;
@@ -81,39 +85,184 @@ button .textBut1,
 }
 
 .but2 .textBut2 {
-  top: 61.84%;
-  bottom: 26.57%;
+  left: 73.26%;
+  right: 12.36%;
+  top: 30.92%;
+  bottom: 57.57%;
 }
 
-/* 
-Android 
-<View
-android:id="@+id/rectangle_1"
-android:layout_width="0dp"
-android:layout_height="0dp"
-android:layout_alignParentLeft="true"
-android:layout_alignParentRight="true"
-android:layout_alignParentTop="true"
-android:layout_alignParentBottom="true"
-android:background="@drawable/rectangle_1"
-/>
-____________
+@media screen and (min-width: 245px) {
+  .logo-footer {
+    position: absolute;
+    top: 25.6%;
+    right: 84.27%;
+    bottom: 25.4%;
+    left: 9.89%;
+  }
 
-ios
-var view = UILabel()
+  .nav-footer {
+    left: 41.26%;
+    top: 32.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
 
-view.frame = CGRect(x: 0, y: 0, width: 1440, height: 207)
+  button {
+    padding: 9px;
+    width: 322px;
+  }
 
-view.backgroundColor = .white
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
 
+  .but1 {
+    left: 58.42%;
+  }
 
-view.layer.backgroundColor = UIColor(red: 0.255, green: 0.58, blue: 0.533, alpha: 1).cgColor
+  .but2 {
+    left: 58.42%;
+  }
 
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
+  }
+}
 
-var parent = self.view!
+@media screen and (min-width: 246px) and (max-width: 987px) {
+  .nav-footer {
+    left: 46.26%;
+    top: 32.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
 
-parent.addSubview(view)
+  button {
+    padding: 9px;
+    width: 322px;
+  }
 
-view.translatesAutoresizingMaskIntoConstraints = false
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
 
-*/ ;
+  .but1 {
+    left: 60.42%;
+  }
+
+  .but2 {
+    left: 60.42%;
+  }
+
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .nav-footer {
+    left: 44.26%;
+    top: 32.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
+
+  button {
+    padding: 9px;
+    width: 330px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .but1 {
+    left: 67.42%;
+  }
+
+  .but2 {
+    left: 67.42%;
+  }
+
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
+  }
+}
+
+@media screen and (min-width: 1411px) {
+  .nav-footer {
+    top: 33.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
+
+  button {
+    padding: 10px;
+    width: 360px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .but1 {
+    left: 67.42%;
+  }
+
+  .but2 {
+    left: 67.42%;
+  }
+
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
+  }
+}
+
+@media screen and (min-width: 2090px) {
+  .logo-footer {
+    margin-top: 2.3%;
+    margin-left: 9.2%;
+  }
+
+  .nav-footer {
+    left: 46.26%;
+    top: 30.6%;
+    line-height: 26.98px;
+  }
+
+  button {
+    padding: 12px;
+    width: 400px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    line-height: 24px;
+  }
+
+  .but1 {
+    left: 68.42%;
+  }
+
+  .but2 {
+    left: 68.42%;
+  }
+}
+
+/* div {
+  -webkit-user-select: none; /* Safari 
+  -ms-user-select: none; /* IE 10 and IE 11 
+  user-select: none; /* Standard syntax 
+} */
