@@ -3,15 +3,10 @@
     padding: 2px;
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
-<<<<<<< HEAD
     
 }
 
 
-=======
-}
-
->>>>>>> post
 .container{
     display: flex;
     max-width: 80%;
@@ -117,9 +112,4 @@ div img{
     margin-left: 15%;
 }
 
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> post

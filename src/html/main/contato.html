@@ -12,18 +12,74 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-<<<<<<< HEAD
     <link rel="stylesheet" href="/src/css/footer.css">
     <link rel="stylesheet" href="/src/css/main/contato.css">
-=======
-    <link rel="stylesheet" href="C:\Users\vanes\projetofinal\ProjetoFinal_EniacCodersGirls\src\css\main\contato.css">
->>>>>>> post
+    <link rel="stylesheet" href="/src/css/header.css">
     <title>Contato</title>
 </head>
 
 <body>
-    <header>
-    </header>
+    <header class="header">
+
+
+            <div class="div-header">
+    
+                <!-- Logo menu  -->
+                <div>
+                    <a href="#">
+                        <img src="/src/assets/img/dindin-imagens/logo-header.png" alt="logo-header-din-din">
+                    </a>
+                </div>
+                <!-- Fim Logo menu  -->
+    
+                <!-- Menu desktop  -->
+                <div class="menu-desktop">
+                    <nav class="button-content" id="desktop-main">
+                        <a href="/src/html/main/cursos.html">Cursos</a>
+                        <a href="/src/html/main/blog.html">Blog</a>
+                        <a href="/src/html/main/contato.html">Contato</a>
+                    </nav>
+                </div>
+                <!-- Fim Menu desktop  -->
+    
+                <!-- Menu mobile  -->
+                <nav id="menu-mobile">
+                    <div id="menu">
+    
+                        <div class="imagem-menu-mobile">
+                            <img src="/src/assets/img/dindin-imagens/menu-mobile.png">
+                        </div>
+    
+                        <div class="mobile-menu-categorias">
+                            <ul id="mobileMainContent">
+                                <a href="/src/html/main/cursos.html">
+                                    <li>Cursos</li>
+                                </a>
+                                <a href="/src/html/main/blog.html">
+                                    <li>Blog </li>
+                                </a>
+                                <a href="/src/html/main/contato.html">
+                                    <li>Contato </li>
+                                </a>
+                            </ul>
+                        </div>
+    
+                    </div>
+                </nav>
+                <!-- Fim Menu mobile  -->
+    
+            </div>
+    
+        </header>
+    
+    
+        <script>
+            $('.imagem-menu-mobile img').click(function () {
+                $('#mobileMainContent').toggleClass('active');
+            });
+        </script>
+    
+  
     <main>
         <div class="container">
             <div class="formulario"> 
@@ -36,11 +92,7 @@
                 </form>
             </div>
             <div class="img">
-<<<<<<< HEAD
                 <img src="/src/assets/img/dindin-imagens/ilustra-contato.png"
-=======
-                <img src="C:\Users\vanes\projetofinal\ProjetoFinal_EniacCodersGirls\src\assets\img\dindin-imagens\ilustra-contato.png"
->>>>>>> post
                     title="Um homem e uma mulher conversando no telefone de copo com fio representando o telefone"
                     alt="ilustra-contato">
             </div>
@@ -48,7 +100,6 @@
     </main>
 </body>
 
-<<<<<<< HEAD
 <footer class="footer">
     <a href="/" target="_self">
         <img class="logo-footer" src="/src/assets/img/dindin-imagens/logo-footer.png" alt="logo dindin">
@@ -70,10 +121,6 @@
             aqui tem outro link
         </a>
     </button>
-=======
-<footer>
-
->>>>>>> post
 </footer>
 
 </html>
