@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.container-flex{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+    padding: 50px 0px;
+    
+
+}
+.curso1{
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+.curso1 h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.curso1 p{
+    padding: 40px 0px 50px 0px;
+}
+
+.intro h1{
+    width: 80%; 
+    margin: auto;
+    color: #FF4081;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 50px;
+}
+
+.intro p{
+    width: 80%; 
+    margin: auto;
+    color: #555555;
+    font-size: 15px;
+}
+
+h2{
+    color: #FF4081;
+}
+
+.curso1 button{
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background:#419488;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+hr{
+    margin: 0px 70px;
+    border-top: 4px #C4C4C4 solid;
+}
+
+@media only screen and (max-width: 767px){
+    
+
+.intro h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.intro p{
+    font-size: 12px;
+    text-align: center;
+    
+}
+.container-flex{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    padding-bottom: 50px;
+    padding: 50px 0px;
+    
+
+}
+
+main .container-flex{
+    display: grid;
+    margin: 0px 15px;
+    padding-bottom: 30px;
+}
+
+.imagem img{
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: 50px;
+}
+
+h2{
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.curso1 p{
+    text-align: justify;
+    padding:20px 0px;
+    font-size: 12px;
+}
+
+.curso1 h2{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+
+.intro{
+    text-align: center;
+}
+
+.curso1 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 10px;
+
+}
+
+button{
+    margin-left: 73px;
+}
+
+hr{
+   border-top: 2px #C4C4C4 solid;
+   margin: 0px 60px;
+  
+}
+
+}

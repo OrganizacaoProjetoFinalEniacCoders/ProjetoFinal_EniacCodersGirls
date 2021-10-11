@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.section-cursos{
+    background: #F7F7F7;
+    width: 100%;
+    
+}
+
+.container{
+    max-width: 73%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.cursos-section{
+    display: flex;
+}
+
+.curso-content{
+    padding: 15px;
+    flex: 1;
+    margin: 35px 8px;
+}
+
+.curso-content img{
+    width: 240px;
+    height: 280px;
+    
+}
+
+
+
+.tituloPagina h1{
+    color: #FF4081;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tituloPagina p{
+    text-align: center;
+    font-size: 12px;
+    
+}
+p{
+    padding: 30px 0px 60px 0px;
+    
+}
+
+h1{
+    padding-top: 40px;
+    color: #2E948A;
+    font-size: 35px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+.section-cursos .container h1{
+    text-align: center;
+    color: #FF4081;
+}
+
+.curso-content {
+    
+    width: 100%;
+}
+
+div img{
+    width: 100%;
+}
+
+.curso-content h4{
+    color: #FF4081;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.curso-content p{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 40px;
+    float: right;
+    margin-top: 20px;
+    
+    
+}
+.curso-content .button-content{
+    background: #FF4081;
+    border:none;
+    text-align: center;
+    border-radius: 20px;
+    width:60%;
+    display: inline-block;
+    padding: 1px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 21%;
+    
+    
+        
+    
+}
+.curso-content .button-content a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+.cursos-section{
+      display: grid;
+      
+        margin: auto;
+      
+    }
+p{
+    text-align: justify;
+}
+
+.curso-content {
+    
+    width: 75%;
+    margin: auto;
+}
+.curso-content img{
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    width: 100%;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+}
+

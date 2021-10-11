@@ -1,26 +1,29 @@
-/* footer */
+footer {
+  width: 1440px;
+  height: 207px;
+}
 
 .footer {
   position: absolute;
-  width: 1440px;
   width: 100vw;
-  height: 207px;
-  left: 0;
-  top: 2371px;
   background-color: #419488;
   box-sizing: border-box;
 }
 
 .logo-footer {
-  position: center;
-  margin: 53px 128px auto 52.57px;
+  position: absolute;
+  /* margin: 53px 128px auto 52.57px; */
+  top: 25.6%;
+  right: 84.27%;
+  bottom: 25.4%;
+  left: 8.89%;
 }
 
 .nav-footer {
   position: absolute;
-  left: 48.26%;
+  left: 43.26%;
   right: 51.81%;
-  top: 28.6%;
+  top: 25.6%;
   bottom: 34.3%;
   text-align: justify;
   font-style: normal;
@@ -36,11 +39,8 @@ button {
   border: 2px solid #fff;
   box-sizing: border-box;
   border-radius: 62px;
-  margin-left: 50px;
-  padding: 10px;
-  width: 200px;
-
-  text-align: center;
+  padding: 13px;
+  width: 400px;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -49,18 +49,18 @@ a {
   color: #fff;
 }
 
-button .textBut1,
+.button .textBut1,
 .textBut2 {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 23px;
-  /* identical to box height */
   text-decoration: none;
   text-align: center;
 }
 
 .but1 {
+  position: absolute;
   left: 70.42%;
   right: 9.51%;
   top: 24.15%;
@@ -83,51 +83,299 @@ button .textBut1,
 }
 
 .but2 .textBut2 {
-  top: 61.84%;
-  bottom: 26.57%;
+  left: 73.26%;
+  right: 12.36%;
+  top: 30.92%;
+  bottom: 57.57%;
+
 }
 
-/*iPhone 5*/
-@media screen and (min-width: 568px) and (max-width: 320px) {
+@media screen and (min-width: 245px) {
+  .logo-footer {
+    position: absolute;
+    top: 25.6%;
+    right: 84.27%;
+    bottom: 25.4%;
+    left: 9.89%;
+  }
+
+  .nav-footer {
+    left: 41.26%;
 }
 
-/*iPhone 6*/
-@media screen and (min-width: 667px) and (max-width: 375px) {
-}
+@media screen and (min-width: 245px) {
+  .logo-footer {
+    position: absolute;
+    top: 25.6%;
+    right: 84.27%;
+    bottom: 25.4%;
+    left: 9.89%;
+  }
 
-/*Smartphone*/
-@media screen and (max-width: 767px) {
-}
+  .nav-footer {
+    left: 41.26%;
+    top: 32.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
 
-/*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-}
+  button {
+    padding: 9px;
+    width: 322px;
+  }
 
-/*iPad*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-}
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
 
-/*Laptop*/
-@media screen and (min-width: 900px) and (max-width: 1440px) {
-}
+  .but1 {
+    left: 58.42%;
+  }
 
-/*Desktop*/
-@media screen and (min-width: 1050px) and (max-width: 1680px) {
-}
+  .but2 {
+    left: 58.42%;
+  }
 
-/*Desktop*/
-@media screen and (min-width: 1024px) {
-  div {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
   }
 }
 
-/*Desktop*/
-@media screen and (min-width: 1080px) and (max-width: 1920px) {
+@media screen and (min-width: 246px) and (max-width: 987px) {
+  .nav-footer {
+    left: 46.26%;
+>>>>>>> blog
+    top: 32.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
+
+  button {
+    padding: 9px;
+    width: 322px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .but1 {
+<<<<<<< HEAD
+    left: 58.42%;
+  }
+
+  .but2 {
+    left: 58.42%;
+  }
+
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
+  }
 }
 
-/*Desktop*/
-@media screen and (min-width: 1440px) and (max-width: 2560px) {
+@media screen and (min-width: 246px) and (max-width: 987px) {
+  .nav-footer {
+    left: 46.26%;
+    top: 32.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
+
+  button {
+    padding: 9px;
+    width: 322px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .but1 {
+    left: 60.42%;
+  }
+
+  .but2 {
+    left: 60.42%;
+  }
+
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
+  }
 }
+
+@media screen and (min-width: 1360px) {
+  .nav-footer {
+    left: 44.26%;
+    top: 32.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
+
+  button {
+    padding: 9px;
+    width: 330px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .but1 {
+    left: 67.42%;
+  }
+
+  .but2 {
+    left: 67.42%;
+  }
+
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
+  }
+}
+
+@media screen and (min-width: 1411px) {
+  .nav-footer {
+    top: 33.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
+
+  button {
+    padding: 10px;
+    width: 360px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+=======
+    left: 60.42%;
+  }
+
+  .but2 {
+    left: 60.42%;
+  }
+
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .nav-footer {
+    left: 44.26%;
+    top: 32.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
+
+  button {
+    padding: 9px;
+    width: 330px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .but1 {
+    left: 67.42%;
+  }
+
+  .but2 {
+    left: 67.42%;
+  }
+
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
+  }
+}
+
+@media screen and (min-width: 1411px) {
+  .nav-footer {
+    top: 33.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
+
+  button {
+    padding: 10px;
+    width: 360px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+>>>>>>> blog
+  .but1 {
+    left: 67.42%;
+  }
+
+  .but2 {
+    left: 67.42%;
+  }
+
+  .but2 .textBut2 {
+    top: 61.84%;
+    bottom: 26.57%;
+  }
+}
+
+@media screen and (min-width: 2090px) {
+  .logo-footer {
+    margin-top: 2.3%;
+    margin-left: 9.2%;
+  }
+
+  .nav-footer {
+    left: 46.26%;
+    top: 30.6%;
+    line-height: 26.98px;
+  }
+
+  button {
+    padding: 12px;
+    width: 400px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    line-height: 24px;
+  }
+
+  .but1 {
+    left: 68.42%;
+  }
+
+  .but2 {
+    left: 68.42%;
+  }
+}
+
+/* div {
+  -webkit-user-select: none; /* Safari 
+  -ms-user-select: none; /* IE 10 and IE 11 
+  user-select: none; /* Standard syntax 
+} */
