@@ -1,12 +1,14 @@
 /* footer */
+
 .footer {
   position: absolute;
-  width: 1457px;
+  width: 1440px;
+  width: 100vw;
   height: 207px;
-  left: 0px;
+  left: 0;
   top: 2371px;
   background-color: #419488;
-  font-family: Ubuntu;
+  box-sizing: border-box;
 }
 
 .logo-footer {
@@ -14,13 +16,13 @@
   margin: 53px 128px auto 52.57px;
 }
 
-.um {
+.nav-footer {
   position: absolute;
-  left: 43.26%;
+  left: 48.26%;
   right: 51.81%;
-  top: 25.6%;
+  top: 28.6%;
   bottom: 34.3%;
-
+  text-align: justify;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -34,7 +36,7 @@ button {
   border: 2px solid #fff;
   box-sizing: border-box;
   border-radius: 62px;
-
+  margin-left: 50px;
   padding: 10px;
   width: 200px;
 
@@ -85,35 +87,47 @@ button .textBut1,
   bottom: 26.57%;
 }
 
-/* 
-Android 
-<View
-android:id="@+id/rectangle_1"
-android:layout_width="0dp"
-android:layout_height="0dp"
-android:layout_alignParentLeft="true"
-android:layout_alignParentRight="true"
-android:layout_alignParentTop="true"
-android:layout_alignParentBottom="true"
-android:background="@drawable/rectangle_1"
-/>
-____________
+/*iPhone 5*/
+@media screen and (min-width: 568px) and (max-width: 320px) {
+}
 
-ios
-var view = UILabel()
+/*iPhone 6*/
+@media screen and (min-width: 667px) and (max-width: 375px) {
+}
 
-view.frame = CGRect(x: 0, y: 0, width: 1440, height: 207)
+/*Smartphone*/
+@media screen and (max-width: 767px) {
+}
 
-view.backgroundColor = .white
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
 
+/*iPad*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
 
-view.layer.backgroundColor = UIColor(red: 0.255, green: 0.58, blue: 0.533, alpha: 1).cgColor
+/*Laptop*/
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+}
 
+/*Desktop*/
+@media screen and (min-width: 1050px) and (max-width: 1680px) {
+}
 
-var parent = self.view!
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  div {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+}
 
-parent.addSubview(view)
+/*Desktop*/
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+}
 
-view.translatesAutoresizingMaskIntoConstraints = false
-
-*/ ;
+/*Desktop*/
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+}
