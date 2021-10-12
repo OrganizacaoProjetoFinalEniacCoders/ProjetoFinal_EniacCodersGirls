@@ -7,17 +7,9 @@
   max-width: 100vw;
 }
 
-<<<<<<< HEAD
-.section1-blog {
-  display: block;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 20px;
-=======
 body {
   width: 100vw;
 }
->>>>>>> blog
 
 header {
   margin-bottom: -50px;
@@ -180,25 +172,10 @@ header {
     margin-bottom: 2011px;
     margin-left: 825px;
   }
-<<<<<<< HEAD
-  /* 
-  .first-content-blog {
-    flex: 1;
-  } */
-
-  .bg-image-blog {
-    background-image: url("../../assets/img/dindin-imagens/ilustra-blog.png");
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
-    flex-wrap: wrap;
-  }
-=======
 
   /* .bg-image-banner-blog {
     background: url(../../assets/img/dindin-imagens/ilustra-blog.png);
   } */
->>>>>>> blog
 
   .section2-blog {
     /* width: 100vw; */
