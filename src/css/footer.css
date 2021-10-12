@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* footer */
 =======
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
@@ -9,34 +10,28 @@ footer {
   height: 207px;
 }
 
+=======
+>>>>>>> blog
 .footer {
   position: absolute;
+  height: 207px;
   width: 100vw;
   background-color: #419488;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .logo-footer {
-  position: absolute;
-  /* margin: 53px 128px auto 52.57px; */
-  top: 25.6%;
-  right: 84.27%;
-  bottom: 25.4%;
-  left: 8.89%;
+  /* position: absolute; */
+  position: center;
 }
 
 .nav-footer {
   position: absolute;
-  left: 43.26%;
-  right: 51.81%;
-  top: 25.6%;
-  bottom: 34.3%;
   text-align: justify;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
-
   color: #fff;
 }
 
@@ -45,8 +40,7 @@ button {
   border: 2px solid #fff;
   box-sizing: border-box;
   border-radius: 62px;
-  padding: 13px;
-  width: 400px;
+  text-align: center;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -59,12 +53,11 @@ a {
 .textBut2 {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
   text-decoration: none;
   text-align: center;
 }
 
+<<<<<<< HEAD
 .but1 {
   /* position: absolute; */
   left: 70.42%;
@@ -111,46 +104,37 @@ a {
 }
 
 @media screen and (min-width: 245px) {
+=======
+@media (min-width: 900px) {
+>>>>>>> blog
   .logo-footer {
-    position: absolute;
-    top: 25.6%;
-    right: 84.27%;
-    bottom: 25.4%;
-    left: 9.89%;
+    margin: 53px 128px auto 52.57px;
   }
 
   .nav-footer {
-    left: 41.26%;
-    top: 32.6%;
-    line-height: 25.98px;
-    font-size: 19px;
+    left: 48.26%;
+    right: 51.81%;
+    top: 28.6%;
+    bottom: 34.3%;
+    text-align: justify;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #fff;
   }
 
   button {
-    padding: 9px;
-    width: 322px;
-  }
+    position: absolute;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 62px;
+    margin-left: 50px;
+    padding: 10px;
+    width: 200px;
 
-  .button .textBut1,
-  .textBut2 {
-    font-size: 19px;
-    line-height: 20px;
-  }
-
-  .but1 {
-    left: 58.42%;
-  }
-
-  .but2 {
-    left: 58.42%;
-  }
-
-  .but2 .textBut2 {
-    top: 61.84%;
-    bottom: 26.57%;
-  }
-}
-
+<<<<<<< HEAD
 @media screen and (min-width: 246px) and (max-width: 987px) {
   .nav-footer {
     left: 46.26%;
@@ -158,20 +142,30 @@ a {
     top: 32.6%;
     line-height: 25.98px;
     font-size: 19px;
+=======
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+>>>>>>> blog
   }
 
-  button {
-    padding: 9px;
-    width: 322px;
+  a {
+    text-decoration: none;
+    color: #fff;
   }
 
-  .button .textBut1,
+  button .textBut1,
   .textBut2 {
-    font-size: 19px;
-    line-height: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-decoration: none;
+    text-align: center;
   }
 
   .but1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     left: 58.42%;
   }
@@ -272,10 +266,27 @@ a {
 
 =======
     left: 60.42%;
+=======
+    left: 70.42%;
+    right: 9.51%;
+    top: 24.15%;
+    bottom: 51.21%;
+  }
+
+  .but1 .textBut1 {
+    left: 73.26%;
+    right: 12.36%;
+    top: 30.92%;
+    bottom: 57.97%;
+>>>>>>> blog
   }
 
   .but2 {
-    left: 60.42%;
+    position: absolute;
+    left: 70.42%;
+    right: 9.51%;
+    top: 55.07%;
+    bottom: 20.29%;
   }
 
   .but2 .textBut2 {
@@ -283,106 +294,154 @@ a {
     bottom: 26.57%;
   }
 }
-
-@media screen and (min-width: 1360px) {
-  .nav-footer {
-    left: 44.26%;
-    top: 32.6%;
-    line-height: 25.98px;
-    font-size: 19px;
-  }
-
+@media screen and (min-width: 700px) and (max-width: 899px) {
   button {
-    padding: 9px;
-    width: 330px;
-  }
-
-  .button .textBut1,
-  .textBut2 {
-    font-size: 19px;
-    line-height: 20px;
-  }
-
-  .but1 {
-    left: 67.42%;
-  }
-
-  .but2 {
-    left: 67.42%;
-  }
-
-  .but2 .textBut2 {
-    top: 61.84%;
-    bottom: 26.57%;
-  }
-}
-
-@media screen and (min-width: 1411px) {
-  .nav-footer {
-    top: 33.6%;
-    line-height: 25.98px;
-    font-size: 19px;
-  }
-
-  button {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 62px;
+    margin-left: 30px;
     padding: 10px;
-    width: 360px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
   }
 
-  .button .textBut1,
-  .textBut2 {
-    font-size: 19px;
-    line-height: 20px;
+  .logo-footer {
+    width: 200px;
+    height: fit-content;
   }
+
+  .nav-footer {
+    position: absolute;
+    left: 45%;
+    top: 28.6%;
+    bottom: 34.3%;
+    text-align: justify;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+  }
+  .but1 {
+    left: 60%;
+    right: 9.51%;
+    top: 24.15%;
+    bottom: 51.21%;
+  }
+  .but2 {
+    position: absolute;
+    left: 60%;
+    right: 9.51%;
+    top: 55.07%;
+    bottom: 20.29%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 699px) {
+  button {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 62px;
+    margin-left: 30px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .logo-footer {
+    width: 120px;
+    height: fit-content;
+    margin-left: 15px;
+  }
+  .nav-footer {
+    position: absolute;
+    width: 50px;
+    left: 15%;
+    top: 50%;
+    bottom: 34.3%;
+    text-align: justify;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+  }
+<<<<<<< HEAD
 
 >>>>>>> blog
+=======
+>>>>>>> blog
   .but1 {
-    left: 67.42%;
+    left: 40%;
+    right: 9.51%;
+    top: 24.15%;
+    bottom: 51.21%;
   }
-
   .but2 {
-    left: 67.42%;
+    position: absolute;
+    left: 40%;
+    right: 9.51%;
+    top: 55.07%;
+    bottom: 20.29%;
   }
-
-  .but2 .textBut2 {
-    top: 61.84%;
-    bottom: 26.57%;
-  }
-}
-
-@media screen and (min-width: 2090px) {
-  .logo-footer {
-    margin-top: 2.3%;
-    margin-left: 9.2%;
-  }
-
-  .nav-footer {
-    left: 46.26%;
-    top: 30.6%;
-    line-height: 26.98px;
-  }
-
-  button {
-    padding: 12px;
-    width: 400px;
-  }
-
-  .button .textBut1,
+  button .textBut1,
   .textBut2 {
-    line-height: 24px;
-  }
-
-  .but1 {
-    left: 68.42%;
-  }
-
-  .but2 {
-    left: 68.42%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    /* identical to box height */
   }
 }
 
-/* div {
-  -webkit-user-select: none; /* Safari 
-  -ms-user-select: none; /* IE 10 and IE 11 
-  user-select: none; /* Standard syntax 
-} */
+@media screen and (min-width: 280px) and (max-width: 399px) {
+  button {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 62px;
+    margin-left: 30px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .logo-footer {
+    width: 120px;
+    height: fit-content;
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+  .nav-footer {
+    position: absolute;
+    width: 50px;
+    left: 70%;
+    top: 10%;
+    bottom: 34.3%;
+    text-align: justify;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+  }
+  .but1 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 9.51%;
+    bottom: 30%;
+  }
+  .but2 {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    right: 9.51%;
+    bottom: 5%;
+  }
+  button .textBut1,
+  .textBut2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    /* identical to box height */
+  }
+}

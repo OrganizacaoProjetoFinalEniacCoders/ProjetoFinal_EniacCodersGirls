@@ -86,6 +86,7 @@
 }
 ul li {
   list-style-type: none;
+  color: black;
 }
 @media (max-width: 350px) {
   .div-header img {
@@ -96,6 +97,7 @@ ul li {
   }
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 950px) {
   .div-header {
 >>>>>>> blog
@@ -168,6 +170,9 @@ ul li {
 =======
 }
 @media screen and (max-width: 920px) {
+=======
+@media screen and (min-width: 949px) {
+>>>>>>> blog
   .imagem-menu-mobile img {
     width: 47px;
   }
@@ -228,6 +233,29 @@ ul li {
     background: white;
     width: 100%;
     padding: 5px;
+  }
+}
+<<<<<<< HEAD
+>>>>>>> blog
+=======
+
+@media screen and (max-width: 950px) {
+  .div-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+    flex-direction: column-reverse;
+    float: right;
+  }
+  .div-header img {
+    width: 210px;
+    position: absolute;
+    height: 60px;
+    left: 82px;
+    top: 20px;
   }
 }
 >>>>>>> blog
