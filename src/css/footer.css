@@ -102,6 +102,7 @@ a {
   .nav-footer {
     left: 41.26%;
 }
+}
 
 @media screen and (min-width: 245px) {
   .logo-footer {
@@ -147,41 +148,6 @@ a {
 @media screen and (min-width: 246px) and (max-width: 987px) {
   .nav-footer {
     left: 46.26%;
->>>>>>> blog
-    top: 32.6%;
-    line-height: 25.98px;
-    font-size: 19px;
-  }
-
-  button {
-    padding: 9px;
-    width: 322px;
-  }
-
-  .button .textBut1,
-  .textBut2 {
-    font-size: 19px;
-    line-height: 20px;
-  }
-
-  .but1 {
-<<<<<<< HEAD
-    left: 58.42%;
-  }
-
-  .but2 {
-    left: 58.42%;
-  }
-
-  .but2 .textBut2 {
-    top: 61.84%;
-    bottom: 26.57%;
-  }
-}
-
-@media screen and (min-width: 246px) and (max-width: 987px) {
-  .nav-footer {
-    left: 46.26%;
     top: 32.6%;
     line-height: 25.98px;
     font-size: 19px;
@@ -263,72 +229,6 @@ a {
     line-height: 20px;
   }
 
-=======
-    left: 60.42%;
-  }
-
-  .but2 {
-    left: 60.42%;
-  }
-
-  .but2 .textBut2 {
-    top: 61.84%;
-    bottom: 26.57%;
-  }
-}
-
-@media screen and (min-width: 1360px) {
-  .nav-footer {
-    left: 44.26%;
-    top: 32.6%;
-    line-height: 25.98px;
-    font-size: 19px;
-  }
-
-  button {
-    padding: 9px;
-    width: 330px;
-  }
-
-  .button .textBut1,
-  .textBut2 {
-    font-size: 19px;
-    line-height: 20px;
-  }
-
-  .but1 {
-    left: 67.42%;
-  }
-
-  .but2 {
-    left: 67.42%;
-  }
-
-  .but2 .textBut2 {
-    top: 61.84%;
-    bottom: 26.57%;
-  }
-}
-
-@media screen and (min-width: 1411px) {
-  .nav-footer {
-    top: 33.6%;
-    line-height: 25.98px;
-    font-size: 19px;
-  }
-
-  button {
-    padding: 10px;
-    width: 360px;
-  }
-
-  .button .textBut1,
-  .textBut2 {
-    font-size: 19px;
-    line-height: 20px;
-  }
-
->>>>>>> blog
   .but1 {
     left: 67.42%;
   }
