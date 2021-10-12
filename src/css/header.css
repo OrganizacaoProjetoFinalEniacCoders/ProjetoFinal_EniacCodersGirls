@@ -111,3 +111,25 @@ ul li {
     padding: 5px;
   }
 }
+
+
+@media screen and (max-width: 950px) {
+  .div-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+    flex-direction: column-reverse;
+    float: right;
+  }
+  .div-header img {
+    width: 210px;
+    position: absolute;
+    height: 60px;
+    left: 82px;
+    top: 20px;
+  }
+}
+

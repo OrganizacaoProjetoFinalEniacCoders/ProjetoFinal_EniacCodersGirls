@@ -1,85 +1,174 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/main/blog.css"/>
-    <link rel="stylesheet" href="../../../styles.css"/>
-    <title>Document</title>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous"
+        >
+        </script>
+        <!-- <link rel="stylesheet" type="text/css" href="../../../styles.css"/> -->
+        <link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+        <link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+
+        <link rel="stylesheet" type="text/css" href="../../css/main/blog4.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> dindin | Blog </title>
+
 </head>
-<body>
-<<<<<<< HEAD
-    <iframe width="560" height="315" src="../header.html" title="header" frameborder="0" allow="accelerometer; aqui; arquivos;" transition:="0.5s;" allowfullscreen></iframe>
-=======
-    <iframe width="560" height="315" src="../header.html" title="footer" frameborder="0" allow="accelerometer; aqui; arquivos;" transition:="0.5s;" allowfullscreen></iframe>
-    
->>>>>>> blog
-    <section class="section1-blog">
-        <div>
+    <body>
+        <!-- <iframe width="100%" height="117px" src="../header1.html" title="header" frameborder="0" allow="accelerometer; aqui;" transition:="0.5s;" allowfullscreen></iframe> -->
+
+        <header class="header">
+            <div class="div-header">
+                <!-- Logo menu  -->
+                <div>
+                    <a href="#">
+                        <img src="../../assets/img/dindin-imagens/logo-header.png" alt="">
+                    </a>
+                </div>
+                <!-- Fim Logo menu  -->
+                <!-- Menu desktop  -->
+                <div class="menu-desktop">
+                    <nav class="button-content" id="desktop-main">
+                        <a href="../main/cursos.html">Cursos</a>
+                        <a href="../main/blog.html">Blog</a>
+                        <a href="../main/contato.html">Contato</a>
+                    </nav>
+                    </div>
+                <!-- Fim Menu desktop  -->
+                <!-- Menu mobile  -->
+                <nav id="menu-mobile">
+                    <div id="menu">              
+                        <div class="imagem-menu-mobile">
+                            <img src="../../assets/img/menu-mobile.png">
+                        </div>
+                        <div class="mobile-menu-categorias">
+                            <ul id="mobileMainContent">
+                                <a href="../main/cursos.html"><li>Cursos </li></a>
+                                <a href="../main/blog.html"><li>Blog </li></a>
+                                <a href="../main/contato.html"><li>Contato </li></a>
+                            </ul>
+                        </div>                
+                    </div>
+                </nav>
+                <!-- Fim Menu mobile  -->
+            </div>
+        </header>
+
+        <script>
+            $('.imagem-menu-mobile img').click(function() {
+                $('#mobileMainContent').toggleClass('active');
+            });
+        </script>
+            
+        <section class="section1-blog">
+            
             <div class='first-content-blog'>
-                <h1>MAIS CONTEÚDO PARA VOCÊ</h1>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-            </div>
-            <div class="section-blog bg-image-blog">
-            </div>
-        </div>
-    </section>
-    <section class="section2-blog"> 
-        <div class="group-post-blog">
-            <div>
-                <div class="post-colun1-blog">
-                    <div class="ret"></div>
-                    <div class="post-blog">
-                        <h2>On the other hand, we denounce</h2>
-                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                
+                <div class="banner-blog-container-texts">
+                
+                    <div class="title-banner-blog">
+                        <h1 class="h1-title-blog">
+                            MAIS CONTEÚDO <br/>
+                            PARA VOCÊ
+                    </h1>
                     </div>
+                    <div class="description-banner-blog">
+                        <p class="p-blog">
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                        </p>
+                    </div>
+
                 </div>
-                <div class="post-colun1-blog">
-                    <div class="ret"></div>
-                    <div class="post-blog">
-                        <h2>On the other hand, we denounce</h2>
-                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
-                    </div>
-                </div>
-                <div class="post-colun1-blog">
-                    <div class="ret"></div>
-                    <div class="post-blog">
-                        <h2>On the other hand, we denounce</h2>
-                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
-                    </div>
+                
+                <div class="section1-img-blog bg-image-banner-blog">
                 </div>
             </div>
-            <div>
-                <div class="post-colun2-blog">
-                    <img src="../../assets/img/retangulo.png"/>
-                    <div class="post-blog">
-                        <h2>On the other hand, we denounce</h2>
-                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+        </section>
+
+        <section class="section2-blog"> 
+            <div class="group-post-blog">
+                <div class="colun1-blog">
+                    <div class="post-colun1-blog">
+                        <div class="ret-banner-blog"></div>
+                        <div class="post-blog">
+                            <h2 class="h2-post-blog">On the other hand, we denounce</h2>
+                            <p class="p-post-blog" >On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                        </div>
+                    </div>
+                    <div class="post-colun1-blog">
+                        <div class="ret-banner-blog"></div>
+                        <div class="post-blog">
+                            <h2 class="h2-post-blog">On the other hand, we denounce</h2>
+                            <p class="p-post-blog" >On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                        </div>
+                    </div>
+                    <div class="post-colun1-blog">
+                        <div class="ret-banner-blog"></div>
+                        <div class="post-blog">
+                            <h2 class="h2-post-blog">On the other hand, we denounce</h2>
+                            <p class="p-post-blog" >On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="post-colun2-blog">
-                    <img src="../../assets/img/retangulo.png"/>
-                    <div class="post-blog">
-                        <h2>On the other hand, we denounce</h2>
-                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                <div class="colun2-blog">
+                    <div class="post-colun2-blog">
+                        <div class="ret-banner-blog"></div>
+                        <div class="post-blog">
+                            <h2 class="h2-post-blog">On the other hand, we denounce</h2>
+                            <p class="p-post-blog" >On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="post-colun2-blog">
-                    <img src="../../assets/img/retangulo.png"/>
-                    <div class="post-blog">
-                        <h2>On the other hand, we denounce</h2>
-                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                    <div class="post-colun2-blog">
+                        <div class="ret-banner-blog"></div>
+                        <div class="post-blog">
+                            <h2 class="h2-post-blog">On the other hand, we denounce</h2>
+                            <p class="p-post-blog" >On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                        </div>
+                    </div>
+                    <div class="post-colun2-blog">
+                        <div class="ret-banner-blog"></div>
+                        <div class="post-blog">
+                            <h2 class="h2-post-blog">On the other hand, we denounce</h2>
+                            <p class="p-post-blog" >On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-<<<<<<< HEAD
-        <iframe width="560" height="315" src="../footer.html" title="footer" frameborder="0" allow="accelerometer; aqui; arquivos;" transition:="0.5s;" allowfullscreen></iframe>
-=======
-        <iframe width="560" height="315" src="../footer.html" title="footer" frameborder="0" allow="accelerometer; aqui;" transition:="0.5s;" allowfullscreen></iframe>
->>>>>>> blog
-    
-</body>
+        </section>
+
+        <!-- <iframe width="100%" height="207px" src="../footer.html" title="footer" frameborder="0" allow="accelerometer; aqui;" transition:="0.5s;" allowfullscreen></iframe> -->
+        
+        <footer class="footer">
+            <div class="footer-logo">
+                <a href="/" target="_self">
+                    <img class="logo-footer" src="../../assets/img/dindin-imagens/logo-footer.png" alt="logo dindin">
+                </a>
+            </div>
+                
+            <nav class="nav-footer">           
+                <a href="../main/curso.html">curso</a>
+                <a href="../main/blog.html"> blog </a>
+                <a href="../main/contato.html">contato</a>
+            </nav>
+            <div class="button">        
+                <button class="but1">
+                    <a class="textBut1" href="">
+                        quero ser prof
+                    </a>
+                </button>            
+                <button class="but2">
+                    <a class="textBut2" href="">
+                        aqui tem outro link
+                    </a>
+                </button>
+            </div>
+        </footer>
+    </body>
 </html>
