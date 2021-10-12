@@ -89,7 +89,7 @@ div img{
   }
 
   .logo-footer {
-    position: absolute;
+    /* position: absolute; */
     /* margin: 53px 128px auto 52.57px; */
     top: 25.6%;
     right: 84.27%;
@@ -98,7 +98,7 @@ div img{
   }
 
   .nav-footer {
-    position: absolute;
+    /* position: absolute; */
     left: 43.26%;
     right: 51.81%;
     top: 28.6%;
@@ -247,6 +247,8 @@ main{
 .logo-footer{
    width: 100px;
    height: 40px;
+   margin: 29px 27px
+
 }
 .nav-footer{
     margin-top: -15px;
@@ -254,6 +256,7 @@ main{
 }
 .footer button{
     max-width: 100px;
+    margin: auto;
     
 }
 .but1 .textBut1 {
@@ -365,6 +368,7 @@ main{
 .logo-footer{
    width: 100px;
    height: 40px;
+   margin: 25px 10px
 }
 .nav-footer{
     margin-top: -15px;
@@ -374,6 +378,7 @@ main{
 }
 .footer button{
     max-width: 120px;
+    margin: auto;
     
 }
 .but1 .textBut1 {
