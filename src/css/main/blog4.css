@@ -172,14 +172,7 @@ header {
     margin-bottom: 2011px;
     margin-left: 825px;
   }
-<<<<<<< HEAD:src/css/main/blog4.css
 
-  /* .bg-image-banner-blog {
-    background: url(../../assets/img/dindin-imagens/ilustra-blog.png);
-  } */
-
-=======
-  
   .bg-image-blog {
     background-image: url("../../assets/img/dindin-imagens/ilustra-blog.png");
     background-repeat: no-repeat;
@@ -187,13 +180,12 @@ header {
     height: 50px;
     flex-wrap: wrap;
   }
-  
+
   /*
   .bg-image-banner-blog {
     background: url(../../assets/img/dindin-imagens/ilustra-blog.png);
   } */
-  
->>>>>>> 6bd5afb6de7e94bd3f977de85f3aefb9388213d8:src/css/main/blog.css
+
   .section2-blog {
     /* width: 100vw; */
     height: 1712px;
