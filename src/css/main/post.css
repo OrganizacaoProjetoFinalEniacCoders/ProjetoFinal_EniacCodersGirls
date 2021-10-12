@@ -171,6 +171,13 @@ p{
     width: 75%;
     margin: auto;
 }
+.curso-content .button-content a{
+    font-size: 12px;
+}
+
+.curso-content .button-content{
+    height: 30px;   
+}
 .curso-content img{
     width: 150px;
     height: 200px;
@@ -182,5 +189,51 @@ h1{
     font-size: 20px;
     text-align: center;
 }
+
+.nav-footer{
+    font-size: 14px;
 }
 
+
+.but1 {
+    width: 150px;
+    height: 40px;
+    margin-left: 70px;
+    
+}
+
+.but1 .textBut1{
+    font-size: 10px;
+}
+
+.but2 .textBut2{
+    font-size: 10px;
+}
+
+.but2{
+    width: 150px;
+    height: 40px;
+    margin-left: 70px;
+}
+
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .header{
+        position: relative !important;
+    }
+
+    .cursos-section{
+        margin-left: 0px;
+        flex-direction: column-reverse;
+}
+    .curso-content img{
+        margin-left: 143px;
+    }
+    
+    .curso-content .button-content{
+        width: 40%;
+        margin-left: 168px;
+    }
+
+}
