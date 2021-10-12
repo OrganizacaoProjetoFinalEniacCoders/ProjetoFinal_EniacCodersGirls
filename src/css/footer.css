@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 /* footer */
 
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
->>>>>>> 5691ba56a3ad76a4e20b4d89ca53ea15327ba332
 footer {
   width: 1440px;
   height: 207px;
@@ -83,10 +80,6 @@ a {
   right: 12.36%;
   top: 30.92%;
   bottom: 57.57%;
-<<<<<<< HEAD
-
-=======
->>>>>>> 5691ba56a3ad76a4e20b4d89ca53ea15327ba332
 }
 
 @media screen and (min-width: 245px) {
@@ -100,7 +93,7 @@ a {
 
   .nav-footer {
     left: 41.26%;
-<<<<<<< HEAD
+
 }
 }
 
@@ -111,7 +104,7 @@ a {
     right: 84.27%;
     bottom: 25.4%;
     left: 9.89%;
-<<<<<<< HEAD
+
   }
 
   .nav-footer {
@@ -138,10 +131,9 @@ a {
 
   .but2 {
     left: 58.42%;
-=======
-=======
->>>>>>> 5691ba56a3ad76a4e20b4d89ca53ea15327ba332
+
   }
+}
 
   @media (min-width: 900px) {
     .logo-footer {
@@ -301,7 +293,6 @@ a {
       top: 24.15%;
       bottom: 51.21%;
     }
-  }
 
   .but1 .textBut1 {
     left: 73.26%;
@@ -316,7 +307,7 @@ a {
     right: 9.51%;
     top: 55.07%;
     bottom: 20.29%;
->>>>>>> d446ea31c01737a0a444963d5fcfe340f74a95bd
+
   }
 
   .but2 .textBut2 {
@@ -324,7 +315,7 @@ a {
     bottom: 26.57%;
   }
 }
-<<<<<<< HEAD
+
 
 @media screen and (min-width: 246px) and (max-width: 987px) {
   .nav-footer {
@@ -351,7 +342,9 @@ a {
 
   .but2 {
     left: 60.42%;
-=======
+  }
+}
+
 @media screen and (min-width: 700px) and (max-width: 899px) {
   button {
     border: 2px solid #fff;
@@ -404,7 +397,6 @@ a {
     padding: 5px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
->>>>>>> d446ea31c01737a0a444963d5fcfe340f74a95bd
   }
   .logo-footer {
     width: 120px;
@@ -449,29 +441,6 @@ a {
 
 @media screen and (min-width: 280px) and (max-width: 399px) {
   button {
-<<<<<<< HEAD
-    padding: 10px;
-    width: 360px;
-  }
-
-  .button .textBut1,
-  .textBut2 {
-    font-size: 19px;
-    line-height: 20px;
-  }
-
-  .but1 {
-    left: 67.42%;
-  }
-
-  .but2 {
-    left: 67.42%;
-  }
-
-  .but2 .textBut2 {
-    top: 61.84%;
-    bottom: 26.57%;
-=======
     border: 2px solid #fff;
     box-sizing: border-box;
     border-radius: 62px;
@@ -479,7 +448,6 @@ a {
     padding: 5px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
->>>>>>> d446ea31c01737a0a444963d5fcfe340f74a95bd
   }
   .logo-footer {
     width: 120px;
