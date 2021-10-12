@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+
+/* footer */
+
+>>>>>>> 6bd5afb6de7e94bd3f977de85f3aefb9388213d8
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 footer {
@@ -92,10 +98,15 @@ a {
 
   .nav-footer {
     left: 41.26%;
+<<<<<<< HEAD
 }
 }
 
 
+=======
+}
+
+>>>>>>> 6bd5afb6de7e94bd3f977de85f3aefb9388213d8
 @media (min-width: 900px) {
 
   .logo-footer {
@@ -127,6 +138,10 @@ a {
   }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6bd5afb6de7e94bd3f977de85f3aefb9388213d8
 @media screen and (min-width: 246px) and (max-width: 987px) {
   .nav-footer {
     left: 46.26%;
@@ -249,7 +264,11 @@ a {
   .textBut2 {
     font-size: 19px;
     line-height: 20px;
+<<<<<<< HEAD
       left: 60.42%;
+=======
+    left: 60.42%;
+>>>>>>> 6bd5afb6de7e94bd3f977de85f3aefb9388213d8
     left: 70.42%;
     right: 9.51%;
     top: 24.15%;
@@ -262,8 +281,12 @@ a {
     right: 12.36%;
     top: 30.92%;
     bottom: 57.97%;
+<<<<<<< HEAD
 
   }
+=======
+ }
+>>>>>>> 6bd5afb6de7e94bd3f977de85f3aefb9388213d8
 
   .but2 {
     position: absolute;
@@ -349,6 +372,10 @@ a {
     line-height: 25px;
     color: #fff;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6bd5afb6de7e94bd3f977de85f3aefb9388213d8
   .but1 {
     left: 40%;
     right: 9.51%;
