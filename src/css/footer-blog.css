@@ -1,23 +1,30 @@
+/* footer */
+
 .footer {
   position: absolute;
-  height: 207px;
   width: 100vw;
+  height: 207px;
+  left: 0px;
   background-color: #419488;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 .logo-footer {
-  /* position: absolute; */
   position: center;
+  margin: 53px 128px auto 52.57px;
 }
 
 .nav-footer {
   position: absolute;
+  left: 48.26%;
+  right: 51.81%;
+  top: 28.6%;
+  bottom: 34.3%;
   text-align: justify;
   font-style: normal;
   font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
   color: #fff;
 }
 
@@ -26,6 +33,10 @@ button {
   border: 2px solid #fff;
   box-sizing: border-box;
   border-radius: 62px;
+  margin-left: 50px;
+  padding: 10px;
+  width: 200px;
+
   text-align: center;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -35,21 +46,63 @@ a {
   color: #fff;
 }
 
-.button .textBut1,
+button .textBut1,
 .textBut2 {
   font-style: normal;
   font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
   text-decoration: none;
   text-align: center;
 }
 
+.but1 {
+  left: 70.42%;
+  right: 9.51%;
+  top: 24.15%;
+  bottom: 51.21%;
+}
+
+.but1 .textBut1 {
+  left: 73.26%;
+  right: 12.36%;
+  top: 30.92%;
+  bottom: 57.97%;
+}
+
+.but2 {
+  position: absolute;
+  left: 70.42%;
+  right: 9.51%;
+  top: 55.07%;
+  bottom: 20.29%;
+}
+
+.but2 .textBut2 {
+  top: 61.84%;
+  bottom: 26.57%;
+}
+
 @media (min-width: 900px) {
+  /* footer */
+
+  .footer {
+    position: absolute;
+    width: 100vw;
+    height: 207px;
+    left: 0px;
+    background-color: #419488;
+  }
+
   .logo-footer {
+    position: center;
     margin: 53px 128px auto 52.57px;
   }
 
   .nav-footer {
-    left: 48.26%;
+    position: absolute;
+    left: 44.26%;
     right: 51.81%;
     top: 28.6%;
     bottom: 34.3%;
@@ -67,9 +120,9 @@ a {
     border: 2px solid #fff;
     box-sizing: border-box;
     border-radius: 62px;
-    margin-left: 50px;
+    margin-left: -48px;
     padding: 10px;
-    width: 200px;
+    width: 334px;
 
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
