@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 /* footer */
 
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
->>>>>>> 5691ba56a3ad76a4e20b4d89ca53ea15327ba332
 footer {
   width: 1440px;
   height: 207px;
@@ -83,10 +80,6 @@ a {
   right: 12.36%;
   top: 30.92%;
   bottom: 57.57%;
-<<<<<<< HEAD
-
-=======
->>>>>>> 5691ba56a3ad76a4e20b4d89ca53ea15327ba332
 }
 
 @media screen and (min-width: 245px) {
@@ -100,7 +93,8 @@ a {
 
   .nav-footer {
     left: 41.26%;
-<<<<<<< HEAD
+
+}
 }
 
 @media screen and (min-width: 245px) {
@@ -110,9 +104,36 @@ a {
     right: 84.27%;
     bottom: 25.4%;
     left: 9.89%;
-=======
->>>>>>> 5691ba56a3ad76a4e20b4d89ca53ea15327ba332
+
   }
+
+  .nav-footer {
+    left: 41.26%;
+    top: 32.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
+
+  button {
+    padding: 9px;
+    width: 322px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .but1 {
+    left: 58.42%;
+  }
+
+  .but2 {
+    left: 58.42%;
+
+  }
+}
 
   @media (min-width: 900px) {
     .logo-footer {
@@ -272,7 +293,6 @@ a {
       top: 24.15%;
       bottom: 51.21%;
     }
-  }
 
   .but1 .textBut1 {
     left: 73.26%;
@@ -287,6 +307,7 @@ a {
     right: 9.51%;
     top: 55.07%;
     bottom: 20.29%;
+
   }
 
   .but2 .textBut2 {
@@ -294,6 +315,36 @@ a {
     bottom: 26.57%;
   }
 }
+
+
+@media screen and (min-width: 246px) and (max-width: 987px) {
+  .nav-footer {
+    left: 46.26%;
+    top: 32.6%;
+    line-height: 25.98px;
+    font-size: 19px;
+  }
+
+  button {
+    padding: 9px;
+    width: 322px;
+  }
+
+  .button .textBut1,
+  .textBut2 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .but1 {
+    left: 60.42%;
+  }
+
+  .but2 {
+    left: 60.42%;
+  }
+}
+
 @media screen and (min-width: 700px) and (max-width: 899px) {
   button {
     border: 2px solid #fff;
