@@ -1,17 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* footer */
-=======
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
->>>>>>> blog
 footer {
   width: 1440px;
   height: 207px;
 }
 
-=======
->>>>>>> blog
 .footer {
   position: absolute;
   height: 207px;
@@ -57,9 +50,8 @@ a {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .but1 {
-  /* position: absolute; */
+  position: absolute;
   left: 70.42%;
   right: 9.51%;
   top: 24.15%;
@@ -74,7 +66,7 @@ a {
 }
 
 .but2 {
-  /* position: absolute; */
+  position: absolute;
   left: 70.42%;
   right: 9.51%;
   top: 55.07%;
@@ -86,7 +78,7 @@ a {
   right: 12.36%;
   top: 30.92%;
   bottom: 57.57%;
-<<<<<<< HEAD
+
 }
 
 @media screen and (min-width: 245px) {
@@ -100,13 +92,12 @@ a {
 
   .nav-footer {
     left: 41.26%;
-=======
+}
 }
 
-@media screen and (min-width: 245px) {
-=======
+
 @media (min-width: 900px) {
->>>>>>> blog
+
   .logo-footer {
     margin: 53px 128px auto 52.57px;
   }
@@ -133,19 +124,17 @@ a {
     margin-left: 50px;
     padding: 10px;
     width: 200px;
+  }
+}
 
-<<<<<<< HEAD
 @media screen and (min-width: 246px) and (max-width: 987px) {
   .nav-footer {
     left: 46.26%;
->>>>>>> blog
     top: 32.6%;
     line-height: 25.98px;
     font-size: 19px;
-=======
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
->>>>>>> blog
   }
 
   a {
@@ -165,8 +154,6 @@ a {
   }
 
   .but1 {
-<<<<<<< HEAD
-<<<<<<< HEAD
     left: 58.42%;
   }
 
@@ -262,15 +249,12 @@ a {
   .textBut2 {
     font-size: 19px;
     line-height: 20px;
-  }
-
-=======
-    left: 60.42%;
-=======
+      left: 60.42%;
     left: 70.42%;
     right: 9.51%;
     top: 24.15%;
     bottom: 51.21%;
+  }
   }
 
   .but1 .textBut1 {
@@ -278,7 +262,7 @@ a {
     right: 12.36%;
     top: 30.92%;
     bottom: 57.97%;
->>>>>>> blog
+
   }
 
   .but2 {
@@ -365,11 +349,6 @@ a {
     line-height: 25px;
     color: #fff;
   }
-<<<<<<< HEAD
-
->>>>>>> blog
-=======
->>>>>>> blog
   .but1 {
     left: 40%;
     right: 9.51%;

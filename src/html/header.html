@@ -1,61 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-        <script
-        src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-        crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../css/header.css">
-        <title>dindin</title>
-    </head>
-    <body>
-        <header class="header">
-            <div class="div-header">
-                <!-- Logo menu  -->
-                <div>
-                    <a href="#">
-                        <img src="../assets/img/dindin-imagens/logo-header.png" alt="">
-                    </a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+
+
+    <div class="div-header">
+
+      <!-- Logo menu  -->
+      <div>
+            <a href="#">
+              <img src="../assets/img/dindin-imagens/logo-header.png" alt="">
+            </a>
+      </div>
+      <!-- Fim Logo menu  -->
+
+      <!-- Menu desktop  -->
+      <div class="menu-desktop">
+            <nav class="button-content" id="desktop-main">
+              <a href="../../src/html/main/cursos.html">Cursos</a>
+              <a href="../../src/html/main/blog.html">Blog</a>
+              <a href="../../src/html/main/contato.html">Contato</a>
+            </nav>
+          </div>
+      <!-- Fim Menu desktop  -->
+
+      <!-- Menu mobile  -->
+            <nav id="menu-mobile">
+              <div id="menu">
+          
+                <div class="imagem-menu-mobile">
+                  <img src="../assets/img/dindin-imagens/menu-mobile.png">
                 </div>
-                <!-- Fim Logo menu  -->
-                <!-- Menu desktop  -->
-                <div class="menu-desktop">
-                      <nav class="button-content" id="desktop-main">
-                        <a href="../../src/html/main/cursos.html">Cursos</a>
-                        <a href="../../src/html/main/blog.html">Blog</a>
-                        <a href="../../src/html/main/contato.html">Contato</a>
-                      </nav>
-                    </div>
-                <!-- Fim Menu desktop  -->
-                <!-- Menu mobile  -->
-                <nav id="menu-mobile">
-                    <div id="menu">              
-                        <div class="imagem-menu-mobile">
-                            <img src="../assets/img/menu-mobile.png">
-                        </div>
-                        <div class="mobile-menu-categorias">
-                            <ul id="mobileMainContent">
-                                <a href="../../src/html/main/cursos.html"><li>Cursos </li></a>
-                                <a href="../../src/html/main/blog.html"><li>Blog </li></a>
-                                <a href="../../src/html/main/contato.html"><li>Contato </li></a>
-                            </ul>
-                        </div>                
-                    </div>
-                </nav>
-                <!-- Fim Menu mobile  -->
-            </div>
-        </header>
 
-        <script>
-          $('.imagem-menu-mobile img').click(function() {
-            $('#mobileMainContent').toggleClass('active');
-          });
-        </script>
+                <div class="mobile-menu-categorias">
+                  <ul id="mobileMainContent">
+                    <a href="../../src/html/main/cursos.html"><li>Cursos </li></a>
+                    <a href="../../src/html/main/blog.html"><li>Blog </li></a>
+                    <a href="../../src/html/main/contato.html"><li>Contato </li></a>
+                  </ul>
+              </div>
 
-    </body>
+              </div>
+            </nav>
+      <!-- Fim Menu mobile  -->
+
+    </div>
+
+  </header>
+
+
+  <script>
+    $('.imagem-menu-mobile img').click(function() {
+      $('#mobileMainContent').toggleClass('active');
+    });
+  </script>
+
+</body>
 </html>
