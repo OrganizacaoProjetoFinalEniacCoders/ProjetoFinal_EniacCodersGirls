@@ -354,30 +354,8 @@ body {
   .section1-img-blog {
     width: 280px;
     margin-top: 48px;
-<<<<<<< HEAD:src/css/main/blog4.css
-    margin-right: 210px;
-    margin-bottom: 2011px;
-    margin-left: 825px;
-  }
-
-<<<<<<< HEAD:src/css/main/blog4.css
-  .bg-image-blog {
-    background-image: url("../../assets/img/dindin-imagens/ilustra-blog.png");
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
-    flex-wrap: wrap;
-  }
-
-  /*
-=======
->>>>>>> blog:src/css/main/blog.css
-  .bg-image-banner-blog {
-    background: url(../../assets/img/dindin-imagens/ilustra-blog.png);
-=======
     margin-bottom: 89px;
     height: fit-content;
->>>>>>> blog:src/css/main/blog.css
   }
 
   .section2-blog {
