@@ -34,7 +34,6 @@ body {
     font-size: 30px;
     color: #009688;
   }
-
   .p-blog {
     width: 100%;
     margin-top: 20px;
@@ -51,43 +50,35 @@ body {
     margin-bottom: 89px;
     height: fit-content;
   }
-
   .section2-blog {
     padding-left: 7%;
     padding-right: 7%;
     padding-bottom: 170px;
     background-color: #e5e5e5;
   }
-
   .group-post-blog {
     display: flex;
     flex-direction: column;
   }
-
   .colun1-blog {
     width: 100%;
   }
-
   .colun2-blog {
     width: 100%;
   }
-
   .post-colun1-blog {
     width: 100%;
     margin-top: 100px;
   }
-
   .post-colun2-blog {
     width: 100%;
     margin-top: 100px;
   }
-
   .ret-banner-blog {
     width: 100%;
     background: #c4c4c4;
     height: 180px;
   }
-
   .h2-post-blog {
     font-style: normal;
     font-weight: 500;
@@ -98,7 +89,6 @@ body {
     color: #ff4081;
     margin-top: 19px;
   }
-
   .p-post-blog {
     font-style: normal;
     font-weight: 300;
@@ -133,7 +123,6 @@ body {
     font-size: 30px;
     color: #009688;
   }
-
   .p-blog {
     width: 100%;
     margin-top: 20px;
@@ -152,43 +141,35 @@ body {
     margin-bottom: 89px;
     height: fit-content;
   }
-
   .section2-blog {
     padding-left: 7%;
     padding-right: 7%;
     padding-bottom: 170px;
     background-color: #e5e5e5;
   }
-
   .group-post-blog {
     display: flex;
     flex-direction: column;
   }
-
   .colun1-blog {
     width: 100%;
   }
-
   .colun2-blog {
     width: 100%;
   }
-
   .post-colun1-blog {
     width: 100%;
     margin-top: 100px;
   }
-
   .post-colun2-blog {
     width: 100%;
     margin-top: 100px;
   }
-
   .ret-banner-blog {
     width: 100%;
     background: #c4c4c4;
     height: 259px;
   }
-
   .h2-post-blog {
     font-style: normal;
     font-weight: 500;
@@ -199,7 +180,6 @@ body {
     color: #ff4081;
     margin-top: 19px;
   }
-
   .p-post-blog {
     font-style: normal;
     font-weight: 300;
@@ -236,7 +216,6 @@ body {
     margin-top: 80px;
     color: #009688;
   }
-
   .p-blog {
     width: 451px;
     margin-top: 20px;
@@ -253,45 +232,37 @@ body {
     margin-bottom: 89px;
     height: fit-content;
   }
-
   .section2-blog {
     padding-left: 7%;
     padding-right: 7%;
     padding-bottom: 170px;
     background-color: #e5e5e5;
   }
-
   .group-post-blog {
     display: flex;
     flex-direction: row;
   }
-
   .colun1-blog {
     width: 50%;
     margin-right: 8%;
   }
-
   .colun2-blog {
     width: 50%;
     margin-left: 8%;
   }
-
   .post-colun1-blog {
     width: 100%;
     margin-top: 100px;
   }
-
   .post-colun2-blog {
     width: 100%;
     margin-top: 100px;
   }
-
   .ret-banner-blog {
     width: 100%;
     background: #c4c4c4;
     height: 259px;
   }
-
   .h2-post-blog {
     font-style: normal;
     font-weight: 500;
@@ -302,7 +273,6 @@ body {
     color: #ff4081;
     margin-top: 19px;
   }
-
   .p-post-blog {
     font-style: normal;
     font-weight: 300;
@@ -340,7 +310,6 @@ body {
     margin-top: 80px;
     color: #009688;
   }
-
   .p-blog {
     width: 451px;
     margin-top: 40px;
@@ -357,45 +326,37 @@ body {
     margin-bottom: 89px;
     height: fit-content;
   }
-
   .section2-blog {
     padding-left: 7%;
     padding-right: 7%;
     padding-bottom: 170px;
     background-color: #e5e5e5;
   }
-
   .group-post-blog {
     display: flex;
     flex-direction: row;
   }
-
   .colun1-blog {
     width: 50%;
     margin-right: 8%;
   }
-
   .colun2-blog {
     width: 50%;
     margin-left: 8%;
   }
-
   .post-colun1-blog {
     width: 100%;
     margin-top: 100px;
   }
-
   .post-colun2-blog {
     width: 100%;
     margin-top: 100px;
   }
-
   .ret-banner-blog {
     width: 100%;
     background: #c4c4c4;
     height: 259px;
   }
-
   .h2-post-blog {
     font-style: normal;
     font-weight: 500;
@@ -406,7 +367,6 @@ body {
     color: #ff4081;
     margin-top: 19px;
   }
-
   .p-post-blog {
     font-style: normal;
     font-weight: 300;
@@ -444,7 +404,6 @@ body {
     margin-top: 140px;
     color: #009688;
   }
-
   .p-blog {
     width: 451px;
     margin-top: 40px;
@@ -461,45 +420,37 @@ body {
     margin-top: 48px;
     margin-bottom: 89px;
   }
-
   .section2-blog {
     padding-left: 7%;
     padding-right: 7%;
     padding-bottom: 170px;
     background-color: #e5e5e5;
   }
-
   .group-post-blog {
     display: flex;
     flex-direction: row;
   }
-
   .colun1-blog {
     width: 50%;
     margin-right: 8%;
   }
-
   .colun2-blog {
     width: 50%;
     margin-left: 8%;
   }
-
   .post-colun1-blog {
     width: 100%;
     margin-top: 100px;
   }
-
   .post-colun2-blog {
     width: 100%;
     margin-top: 100px;
   }
-
   .ret-banner-blog {
     width: 100%;
     background: #c4c4c4;
     height: 259px;
   }
-
   .h2-post-blog {
     font-style: normal;
     font-weight: 500;
@@ -510,7 +461,6 @@ body {
     color: #ff4081;
     margin-top: 19px;
   }
-
   .p-post-blog {
     font-style: normal;
     font-weight: 300;
