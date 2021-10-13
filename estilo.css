@@ -1,9 +1,15 @@
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .section1 {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-items:  center  ;
     padding: 30px;
+    /* padding-top: 100px; */
     margin-left: 100px;
  
    
@@ -14,9 +20,10 @@
         flex-wrap: wrap;
         justify-content:space-evenly;
         align-items:  center  ;
-        
+        padding-top: 75px ;
+        padding-bottom: 100px;
         background-color: #F7F7F7;
-        padding: 50px 50px;
+        /* padding: 50px 50px; */
     }  
     
     .section3 {
@@ -24,17 +31,17 @@
         flex-wrap: wrap;
         justify-content:center;
         align-items:  center  ;
-        padding: 0px;
+        padding-top: 30px;
        
         
     } 
 
     .section4 {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap:wrap;
         justify-content:space-around;
         align-items:  center  ;
-        padding: 20px;
+        padding: 30px;
         background-color: #F7F7F7;
         
     } 
@@ -90,8 +97,9 @@
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
-    font-size: 27px;
+    font-size: 22px;
     line-height: 31px;
+
     
     color: #FF4081;
     
@@ -101,15 +109,18 @@
     border-radius: 62px;
     }
     
-    .ilustra-banner{
+    .ilustra-banner {
 
         grid-row: 1;
         grid-column: 2;
-        margin-top: 30px;
-        /* margin-left: 180px; */
+        margin-top: 150px;
+        
     }
 
-    .section2 .ilustra-sec2 img {}
+    .section2 .ilustra-sec2 img {
+        margin-bottom: 20px;
+
+    }
     
     .section2 h3 {
         
@@ -119,9 +130,10 @@
         font-size: 20px;
         line-height: 29px;
         /* identical to box height */
-        
+        margin-bottom: 10px;
         /* text-align: center; */
         color: #FF4081;    
+        margin-left: 50px;
     
     }
     
@@ -136,6 +148,8 @@
     letter-spacing: 0em;
     /* text-align: center; */
     color: #000000;
+    margin-bottom: 30px;
+    margin-left: 50px;
     
     }
     
@@ -147,11 +161,12 @@
         font-weight: normal;
         font-size: 14px;
         line-height: 23px;
-        text-align: center;
+        /* text-align: center; */
         
         color: #ffffff;
         background: #FF4081;
         border-radius: 62px;
+       
         
         }
 
@@ -165,6 +180,7 @@
     letter-spacing: 0em;
     text-align: left;
     margin-left: 50px;
+    margin-top: 50px;
     color: #009688;
     }
 
@@ -181,6 +197,7 @@
         grid-row: 1;
         grid-column: 1;
        padding-right: 15px;
+       margin-top: 30px;
     }
     .coment p{
         grid-row: 1;
@@ -191,6 +208,7 @@
         font-size: 18px;
         line-height: 25px;
         color: #000000;
+        margin-top: 30px;
     }
 
     .maisconteudo p{
@@ -205,6 +223,7 @@
             text-align: left;
             margin-left: 50px;
             margin-top: 100px;
+            margin-bottom: 50px;
             color: #009688;
            
     }
@@ -216,7 +235,7 @@
 
 
 
-    .video1 iframe {
+    .video iframe {
        
         background: #C4C4C4;
         }
@@ -227,6 +246,7 @@
         font-style: normal;
         font-weight: bold;
         font-size: 27px;
+        margin-top: 20px;
 
         
         color: #009688;
@@ -238,43 +258,60 @@
         font-weight: 400px;
         font-size: 20px;
         line-height: 30px;
+        margin-top: 20px;
         
         color: #000000;
         }
 
+        .vertodososposts {
+            margin: 0 auto;
+            display: grid;
+            justify-items: center;
+            margin-top: 30px;
+            padding-bottom: 100px;
+        
+        }
         .vertodososposts button {
-        
         cursor: pointer;
-        font-size: 17px;
-        border: 2px solid #FF4081;
-        box-sizing: border-box;
-        border-radius: 62px;
-        margin-top: 40px;
-        line-height: 29px;
-        border: 2px solid #FF4081;
-        box-sizing: border-box;
-        border-radius: 62px;
+        font-size: 15px; 
+        border: 2px solid; 
+        box-sizing: border-box; 
+        border-radius: 62px; 
+        line-height: 29px; 
+        border: 2px solid ; 
+        color: #FF4081;
         
-        }
+    }
 
 
-        @media only screen and (max-width: 400px) {
-           .ilustra-banner margin-left: 180px; 
+        @media only screen and (max-width: 480px) {
+        
+           .ilustra-banner { max-width: 80%; margin-right: 270px;
         }
-           
+        .banner h1 {
+            margin-top: 100px;
+            
+        }
+            
+       
         .section2 .ilustra-sec2 img {
-            margin-left: 50px;
+            max-width: 80%;
+            margin-left: 30px;
+            margin-top: 80px;
         }
 
             .section2 h3 {
                 margin-left: 80px;
+               
             }
 
             .section2 p {
                 margin-left: 80px;
+                margin-top: 10px;
             }
             .section2 button {
                 margin-left: 80px;
+               
             }
 
             .depoimento p {
@@ -285,6 +322,39 @@
                 font-size: 25px;
             }
            
-            .video {
-                margin-left: 100px;
+            .vertodososposts button {
+                margin-left: 80px;
+
             }
+
+            .video { margin-top: 40px;
+
+            }
+            .video h1 {margin-top: 20px;}
+        }
+        
+        .vertodososposts {
+            margin-right: 400px;
+        }
+    
+        @media only screen and (max-width: 1000px) {
+        
+            .ilustra-banner { max-width: 80%; margin-right: 100px;
+         }
+         .banner h1 {
+             margin-top: 150px;
+             
+         }
+
+         .section2 .ilustra-sec2 img {
+            max-width: 80%; 
+            margin-top: 80px;
+            margin-left: 50px;
+        
+        }
+    
+        .video { margin-top: 40px;
+
+        }
+        .video h1 {margin-top: 20px;}
+    }
