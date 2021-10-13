@@ -49,3 +49,6 @@ Gama Academy
 
 ### Kanban da Squad
 https://trello.com/b/dRheUB0C/kanban-projeto-final
+
+### Link para o nosso site dindin
+https://organizacaoprojetofinaleniaccoders.github.io/ProjetoFinal_EniacCodersGirls/index.html
