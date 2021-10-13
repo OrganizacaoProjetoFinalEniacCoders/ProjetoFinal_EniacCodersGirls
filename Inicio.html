@@ -6,228 +6,285 @@
         <meta name="description" content="Educação Financeira" />
         <meta name="author" content="Eniac Coders Girl's" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/src/css/footer-curso.css">
+        <link rel="stylesheet" href="/src/css/header-curso.css">
+        <link rel="stylesheet" href="/estilo.css">
+   
     </head>
+
+    
+    </header>
 
     <main role="main">
 
-<body>
+    <body>
+        <header class="header">
 
-    <section class="conteiner">
 
-        <div class="banner">
-<p>Educação <br>
-Financeira <br> 
-é tudo de bom<br></p>
-        </div>
+            <div class="div-header">
+    
+                <!-- Logo menu  -->
+                <div>
+                    <a href="#">
+                        <img src="/src/assets/img/dindin-imagens/logo-header.png" alt="logo-header-din-din">
+                    </a>
+                </div>
+                <!-- Fim Logo menu  -->
+    
+                <!-- Menu desktop  -->
+                <div class="menu-desktop">
+                    <nav class="button-content" id="desktop-main">
+                        <a href="/src/html/main/cursos.html">Cursos</a>
+                        <a href="/src/html/main/blog.html">Blog</a>
+                        <a href="/src/html/main/contato.html">Contato</a>
+                    </nav>
+                </div>
+                <!-- Fim Menu desktop  -->
+    
+                <!-- Menu mobile  -->
+                <nav id="menu-mobile">
+                    <div id="menu">
+    
+                        <div class="imagem-menu-mobile">
+                            <img src="/src/assets/img/dindin-imagens/menu-mobile.png">
+                        </div>
+    
+                        <div class="mobile-menu-categorias">
+                            <ul id="mobileMainContent">
+                                <a href="/src/html/main/cursos.html">
+                                    <li>Cursos</li>
+                                </a>
+                                <a href="/src/html/main/blog.html">
+                                    <li>Blog </li>
+                                </a>
+                                <a href="/src/html/main/contato.html">
+                                    <li>Contato </li>
+                                </a>
+                            </ul>
+                        </div>
+    
+                    </div>
+                </nav>
+                <!-- Fim Menu mobile  -->
+    
+            </div>
+    
+        </header>
+    
+    
+        <script>
+            $('.imagem-menu-mobile img').click(function () {
+                $('#mobileMainContent').toggleClass('active');
+            });
+        </script>
+
+        <main>
         
-<div class="vem">
-<p>Vem comigo que te mostro por onde começar</p><br>
-</div>
+        
+            <!--section1-->
+            <section class="section1">
+                    <section class="grid">
+                        <div class="banner">
+                            <h1>
+                                Educação <br>Financeira<br> é tudo de bom
+                            </h1>
 
-<div class="button">
-<button aria-label="Acesse esse conteúdo para saber mais sobre educação financeira">quero saber mais</button>
-<br>
-</div>
+                            <p>
+                                Vem comigo que te mostro <br> por onde começar
+                            </p><br>
+                        </div>
 
-<div class="ilustra-banner">
-<img src="ilustra-banner.png" alt="Educação Financeira" title="Educação Financeira"/>
-<br>
-</div>
+                        <!--link para os botões-->
+                        <div class="button">
+                            <a href="http://www.google.com.br" title="quero saber mais" target="_blank"> 
+                                <button aria-label="Acesse esse conteúdo para saber mais sobre educação financeira">
+                                    quero saber mais
+                                </button>
+                            </a>
+                        </div>
+                    </section><!--GRID-->
+                <div class="ilustra-banner">
+                    <img src="/src/assets/img/dindin-imagens/ilustra-banner.png" alt="Educação Financeira" title="Educação Financeira"/><br>
+                </div>
+            </section><!--section1-->
+            
+<!-------------------------------------------------------------------------------------------------------------------------->
 
-<div class="cursos">
-    <main></main>
-</div>
-
-
-<div class="ilustra-poupando">
-<img src="ilustra-poupando.png" />
-<br>
-</div>
-
-<div class="investimento">
-<main>Investimento para iniciantes</main>
-<br>
-</div>
-
-<div class="texto1">
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua.</p>>
-    <br>
-
-    <div class="button2">
-    <button>começar agora</button>
-</div>
-
-<br>
-</div>
-
-<div class="ilustra-investimento">
-    <img src="ilustra-investimento.png" />
-    <br>
+<section class="section2"> <!--section2-->
+    <div class="ilustra-sec2">
+        <img src="ilustra-poupando.png" />
+        <h3>Investimento para iniciantes</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.
+        </p>
+        <a href="http://www.google.com.br" title="começar agora" target="_blank"> 
+            <button aria-label="acesse o blog investimento para iniciantes para saber mais">
+                começar agora
+            </button> 
+        </a>
     </div>
 
-    <div class="poupando">
-    <main>Poupando e Rendendo</main>
-</div>
-<br>
-
-<div class="texto2">
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua.</p>
-</div>
 
     
-<div class="button3">
-<button>começar agora</button>
-    <br>
-</div>
-
-<div class="ilustra-independencia">
-<img src="ilustra-independencia.png" />
-<br>
-</div>
-
-<div class="independencia">
-<main>Independencia Financeira</main>
-</div>
-
-<div class="texto3">
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua.</p>
-    <br>
-</div>
-
-<div class="button4">
-    <button>começar agora</button>
-    <br>
-</div>
-
-<div class="depoimento">
-<p>O que falam sobre nós</p>
-<br>
-</div>
-
-<div class="wally">
-<img src="icon-wally.png" />
-<br>
-</div>
-
-<div class="depoimento1">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua <br></p>
-</div>
-
-<div class="nomewally">
-    <main>wally, 25</main>
-</div>
-
-<div class="whoopi">   
-<img src="icon-whoopi.png" />
-<br>
-</div> 
-
-<div class="depoimento2">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua</p>
-    <br>
-</div>
-
-<div class="nomewhoopi">
-    <main>Whoopi Goldberg, 37</main>
-</div>
-
-<div class="jaden">
-<img src="icon-jaden.png" />
-<br>
-</div>
-
-<div class="depoimentojaden">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua</p>
-    <br>
-</div>
-
-<div class="nomejaden">
-    <main>Jaden Smith, 23</main>
-</div>
-
-<div class="jane">   
-<img src="icon-jane.png" />
-    <br>
-</div> 
-
-<div class="depoimentojane">  
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua</p>
-        <br>
-    </div>
-
-    <div class="nomejane">
-        <main>Janes Joplin, 29</main>
-    </div>
-
-    <div class="bgblog">
-    <main></main>
-    </div>
-
-    <div class="maisconteudo">
-        <main>Mais conteúdo para você</main>
-        <br>
-    </div>
-
-    <div class="ret1">
-        <main></main>
-    </div>
-
-    <div class="titulo1">
-        <p>Itaque earum rerum </p>
-    </div>
-
-    <div class="textoret1">
-        <p>hic tenetur a sapiente delectus, ut aut <br>
-            reiciendis voluptatibus maiores alias<br>
-             consequatur aut perferendis doloribus<br>
-              asperiores repellat.</p>
-    </div>
-
-    <div class="ret2">
-        <main></main>
-    </div>
-
-    <div class="titulo2">
-        <p>Itaque earum rerum </p>
-    </div>
-
-    <div class="textoret2">
-        <p>hic tenetur a sapiente delectus, ut aut <br>
-            reiciendis voluptatibus maiores alias<br>
-             consequatur aut perferendis doloribus<br>
-              asperiores repellat.</p>
-    </div>
-
-    <div class="ret3">
-        <main></main>
-    </div>
-
-    <div class="titulo3">
-        <p>Itaque earum rerum </p>
-    </div>
-
-    <div class="textoret3">
-        <p>hic tenetur a sapiente delectus, ut aut <br>
-            reiciendis voluptatibus maiores alias<br>
-             consequatur aut perferendis doloribus<br>
-              asperiores repellat.</p> </div>
-
-    <div class="vertodososposts">
-        <button>ver todos os posts</button>
-    </div>
+    <div class="ilustra-sec2">
+        <img src="ilustra-investimento.png" />
+        <h3>Poupando e Rendendo</h3>
+        <p>
+            Lorem ipsum dolor sit amet,consectetur adipiscing elit, ed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.
+        </p>
+        
+        <a href="http://www.google.com.br" title="começar agora" target="_blank"> 
+            <button aria-label="acesse o blog poupando e rendendo para saber mais">
+                começar agora
+            </button> 
+        </a> 
+    </div><!--sec2-->
 
 
-    </section>
-</main>
-</section>
-        </body>
-    </div>
+    <div class="ilustra-sec2">
+        <img src="ilustra-independencia.png" width="300"/>
+        <h3>Independencia Financeira</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.
+        </p>
+
+        <a href="http://www.google.com.br" title="começar agora" target="_blank"> 
+            <button aria-label="acesse o blog independencia financeira para saber mais">
+                começar agora
+            </button> 
+        </a>
+    </div><!--sec2-->
+
+
+</section><!--section2-->
+
+<!-------------------------------------------------------------------------------------------------------------------------->
+
+
+                <div class="depoimento">
+                    <p>O que falam sobre nós</p>
+                </div>
+
+            <section class="section3">
+
+                    <div class="coment">
+                        <img src="icon-wally.png" />
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed <br>do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua
+                        </p>
+                        
+                    </div> <!---coment-->
+
+                    <div class="coment">
+                        <img src="icon-whoopi.png" />
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed <br>do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua
+                        </p>
+                    </div> <!---coment-->
+
+                    <div class="coment">
+                        <img src="icon-jaden.png" />
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed <br>do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua
+                        </p>
+                    </div> <!---coment-->
+
+                    <div class="coment">
+                        <img src="icon-jane.png" />
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed <br>do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua
+                        </p>
+                    </div> <!---coment-->
+            </section><!--section3-->
+
+<!-------------------------------------------------------------------------------------------------------------------------->
+            <div class="maisconteudo">
+                <p>Mais conteúdo para você</p>
+
+            </div>
+            <section class="section4">
+                
+                    <div class="video">
+
+                        
+                        <iframe width=400 height="193" src="https://www.youtube.com/embed/RT0tVPKUJwM" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <h1>Radar BV </h1>
+                         <p>
+                             hic tenetur a sapiente delectus, ut aut <br>
+                            reiciendis voluptatibus maiores alias<br>
+                             consequatur aut perferendis doloribus<br>
+                              asperiores repellat.
+                        </p>
+                    </div>
+
+                    <div class="video">
+                        <iframe width="400" height="193" src="https://www.youtube.com/embed/dj8UAXRKZM4" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <h1>Vamos Falar de Dinheiro</h1>
+                         <p>
+                             hic tenetur a sapiente delectus, ut aut <br>
+                            reiciendis voluptatibus maiores alias<br>
+                             consequatur aut perferendis doloribus<br>
+                              asperiores repellat.
+                        </p>
+                    </div>
+
+                    <div class="video">
+                        <iframe width="400" height="193" src="https://www.youtube.com/embed/UJ7y7IeFypY" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <h1>Olhar para o Futuuro</h1>
+                         <p>
+                             hic tenetur a sapiente delectus, ut aut <br>
+                            reiciendis voluptatibus maiores alias<br>
+                             consequatur aut perferendis doloribus<br>
+                              asperiores repellat.
+                        </p>
+                    </div>
+
+
+                   
+
+                    <div class="vertodososposts">
+                        <a href="http://www.google.com.br" title="começar agora" target="_blank">  
+                            <button aria-label="acesse esse conteúdo para ver todos os posts" >ver todos os posts</button> </a>
+                    </div>
+    
+                </main>
+             </section><!---section4-->
+
+            </main>
+            <footer class="footer">
+                <a href="/" target="_self">
+                    <img class="logo-footer" src="/src/assets/img/dindin-imagens/logo-footer.png" alt="logo dindin">
+                </a>
+                    
+                <nav class="nav-footer">
+                    <a href="/src/html/main/curso.html">cursos</a>
+                    <a href="/src/html/main/blog.html"> blog </a>
+                    <a href="/src/html/main/contato.html">contato</a>
+                </nav>
+                <button class="but1">
+                    <a class="textBut1" href="">
+                        quero ser prof
+                    </a>
+                </button>
+            
+                <button class="but2">
+                    <a class="textBut2" href="">
+                        aqui tem outro link
+                    </a>
+                </button>
+            </footer>
+    </body>
 </html>

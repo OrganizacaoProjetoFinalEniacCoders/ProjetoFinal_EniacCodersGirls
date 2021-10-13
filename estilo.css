@@ -1,740 +1,290 @@
-* { padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font: Ubuntu;
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:  center  ;
+    padding: 30px;
+    margin-left: 100px;
+ 
+   
+}   
+
+    .section2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        align-items:  center  ;
+        
+        background-color: #F7F7F7;
+        padding: 50px 50px;
+    }  
+    
+    .section3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items:  center  ;
+        padding: 0px;
+       
+        
+    } 
+
+    .section4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items:  center  ;
+        padding: 20px;
+        background-color: #F7F7F7;
+        
+    } 
+
+.grid{
+
+    display: grid;
 }
 
-.conteiner .banner p { 
-    position: absolute;
-    width: 488px;
-    height: 216px;
-    left: 206px;
-    top: 242px;
+
+.banner{
     
-font-family: Ubuntu sans-serif;
-font-size: 60px;
-font-style: normal;
-font-weight: 700;
-line-height: 69px;
-letter-spacing: 0em;
-text-align: left;
-    
+    grid-row: 1;
+    grid-column: 1;
+}
+.banner h1 { 
+
+    font-family: Ubuntu;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
     color: #FF4081;
+    }
+
+.vem{
+  
+    grid-row: 2;
+    grid-column: 1; 
+}
+
+.banner p {
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 30px;
+   color: #555555;
 
 }
 
-.vem p {
-    position: absolute;
-width: 462px;
-height: 62px;
-left: 207px;
-top: 477px;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: normal;
-font-size: 27px;
-line-height: 31px;
-
-color: #555555;
+.button{
+    grid-row: 3;
+    grid-column: 1;
 }
 
 .button button {
-    position: absolute;
-width: 216px;
-height: 20.27px;
-left: 233px;
-top: 585.5px;
+  
+    cursor: pointer;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    
+    color: #FF4081;
+    
+    
+    border: 2px solid #FF4081; 
+    box-sizing: border-box;
+    border-radius: 62px;
+    }
+    
+    .ilustra-banner{
 
-font-family: Ubuntu;
-font-style: normal;
-font-weight: normal;
-font-size: 27px;
-line-height: 31px;
+        grid-row: 1;
+        grid-column: 2;
+        margin-top: 30px;
+        /* margin-left: 180px; */
+    }
 
-color: #FF4081;
-
-position: absolute;
-width: 268px;
-height: 51px;
-left: 207px;
-top: 577px;
-
-border: 2px solid #FF4081;
-box-sizing: border-box;
-border-radius: 62px;
-}
-
-.ilustra-banner img {
+    .section2 .ilustra-sec2 img {}
+    
+    .section2 h3 {
         
-    position: absolute;
-    width: 501px;
-    left: 733px;
-    right: 511px;
-    top: 252px;
-    bottom: 76.13%;
-   
-    border: 2px solid #555555; 
-
-}
-
-.cursos main {
-
-    height: 730px;
-width: 1440px;
-left: 0px;
-top: 829px;
-border-radius: 0px;
-
-background: #F6F6F6;
-
-position: absolute;
-width: 1440px;
-height: 730px;
-left: 0px;
-top: 829px;
-
-background: #F7F7F7;
-} 
-
-.ilustra-poupando img {
-    position: absolute;
-    width: 288px;
-    height: 270px;
-    left: 156px;
-    right: 270px;
-    top: 938px;
-   
-}
-
-.investimento main {
-    position: absolute;
-    width: 344px;
-    height: 29px;
-    left: 128px;
-    top: 1253px;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 29px;
+        /* identical to box height */
+        
+        /* text-align: center; */
+        color: #FF4081;    
+    
+    }
+    
+    .section2 p{
+        width: 230px;
     
     font-family: Ubuntu;
+    font-size: 17px;
     font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 29px;
-    /* identical to box height */
+    font-weight: auto;
+    line-height: 20px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+    color: #000000;
     
-    text-align: center;
-    color: #FF4081;    
-
-}
-
-.texto1 p {
-    position: absolute;
-width: 293px;
-height: 60px;
-left: 154px;
-top: 1305px;
-
-font-family: Ubuntu;
-font-size: 17px;
-font-style: normal;
-font-weight: 300;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
-color: #000000;
-
-}
-
-.button2 button {
-    position: absolute;
-width: 216px;
-height: 20.27px;
-left: 193px;
-top: 1406px;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-
-color: #FFFFFF;
-
-position: absolute;
-width: 233px;
-height: 51px;
-left: 184px;
-top: 1391px;
-
-background: #FF4081;
-border-radius: 62px;
-}
-
-.ilustra-investimento img {
-    position: absolute;
-    width: 238px;
-    height: 270px;
-    left: 621px;
-    top: 938px;
-    bottom: 62.21%;
-}
-
-.poupando main {
-    position: absolute;
-width: 344px;
-height: 29px;
-left: 606px;
-top: 1251px;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 25px;
-line-height: 29px;
- 
-/* identical to box height */
-
-color: #FF4081;
-
-}
-
-.conteiner .texto2 p {
-    position: absolute;
-width: 293px;
-height: 60px;
-left: 593px;
-top: 1305px;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: 300;
-font-size: 17px;
-line-height: 20px;
-text-align: center;
-
-color: #000000;
-
-}
-
-.button3 button {
-    position: absolute;
-width: 216px;
-height: 20.27px;
-left: 632px;
-top: 1406px;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-
-color: #FFFFFF;
-
-position: absolute;
-width: 233px;
-height: 51px;
-left: 623px;
-top: 1391px;
-
-background: #FF4081;
-border-radius: 62px;
-
-}
-
-.ilustra-independencia img {
-    position: absolute;
-height: 270px;
-width: 187px;
-left: 1066px;
-top: 938px;
-bottom: 62.21%;
-
-}
-
-.independencia main {
-    position: absolute;
-width: 304px;
-height: 29px;
-left: 1007px;
-top: 1251px;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 25px;
-line-height: 29px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FF4081;
-}
-
-.texto3 p {
-    position: absolute;
-width: 293px;
-height: 60px;
-left: 1013px;
-top: 1303px;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: 300;
-font-size: 17px;
-line-height: 20px;
-text-align: center;
-
-color: #000000;
-}
-
-.button4 button{ 
-    position: absolute;
-width: 216px;
-height: 20.27px;
-left: 1052px;
-top: 1406px;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-
-color: #FFFFFF;
-
-position: absolute;
-width: 233px;
-height: 51px;
-left: 1043px;
-top: 1391px;
-border-radius: 62px;
-background: #FF4081;
-
-}
-
-.depoimento p {
-    position: absolute;
-    height: 50px;
-width: 478px;
-left: 128px;
-top: 1678px;
-border-radius: nullpx;
-
-font-family: Nunito;
-font-size: 37px;
-font-style: normal;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0em;
-text-align: left;
-
-color: #009688;
-}
-
-.wally img {
-    position: absolute;
-width: 84px;
-height: 68px;
-left: 139px;
-top: 1818px;
-
-position: absolute;
-width: 104px;
-height: 104px;
-left: 128px;
-top: 1806px;
-
-background: #FFFFFF;
-
-box-sizing: border-box;
-border-radius: 50px;
-
-}
-
-.depoimento1 p {
-    position: absolute;
-width: 363px;
-height: 70.27px;
-left: 260px;
-top: 1806px;
-
-font-family: Nunito;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
-
-color: #000000;
-
-}
-
-.nomewally main {
-    position: absolute;
-width: 76px;
-height: 23.42px;
-left: 260px;
-top: 1886.58px;
-
-font-family: Nunito;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-
-color: #000000;
-
-}
-
-.whoopi img {
-    position: absolute;
-    height: 82px;
-    width: 76px;
-    left: 142px;
-    top: 2013px;
-    border-radius: 31px;   
+    }
     
-    position: absolute;
-width: 104px;
-height: 104px;
-left: 128px;
-top: 1996px;
+    .section2 button {
+       
+        cursor: pointer;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 23px;
+        text-align: center;
+        
+        color: #ffffff;
+        background: #FF4081;
+        border-radius: 62px;
+        
+        }
 
-background: #FFFFFF;
-
-box-sizing: border-box;
-border-radius: 50px;
-}
-
-.depoimento2 p {
-    position: absolute;
-width: 363px;
-height: 73.65px;
-left: 255px;
-top: 1996px;
-
-font-family: Nunito;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
-
-color: #000000;
-}
-
-.nomewhoopi main {
-    position: absolute;
-width: 175px;
-height: 24.55px;
-left: 255px;
-top: 2080.45px;
-
-font-family: Nunito;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-/* identical to box height */
-
-color: #000000;
-}
-
-.jaden img {
-    position: absolute;
-width: 81px;
-height: 85px;
-left: 812px;
-top: 1811px;
-
-background: url(image.png);
-transform: matrix(-1, 0, 0, 1, 0, 0);
-
-position: absolute;
-width: 104px;
-height: 104px;
-left: 720px;
-top: 1806px;
-
-background: #FFFFFF;
-
-box-sizing: border-box;
-border-radius: 50px;
-}
-
-.depoimentojaden p {
-    position: absolute;
-width: 363px;
-height: 70.27px;
-left: 852px;
-top: 1806px;
-
-font-family: Nunito;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
-
-color: #000000; 
-}
-
-.nomejaden main {
-    position: absolute;
-width: 128px;
-height: 23.42px;
-left: 852px;
-top: 1886.58px;
-
-font-family: Nunito;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-
-color: #000000;
-}
-
-.jane img {
-    position: absolute;
-width: 89px;
-height: 88px;
-left: 719px;
-top: 2015px;
-
-background: url(image.png);
-border-radius: 59px;
-
-position: absolute;
-width: 104px;
-height: 104px;
-left: 714px;
-top: 2001px;
-
-background: #FFFFFF;
-box-sizing: border-box;
-border-radius: 50px;
-}
-
-.depoimentojane p {
-    position: absolute;
-width: 363px;
-height: 71.62px;
-left: 852px;
-top: 1997px;
-
-font-family: Nunito;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
-
-color: #000000;
-}
-
-.nomejane main {
-    position: absolute;
-width: 124px;
-height: 23.87px;
-left: 840px;
-top: 2079.13px;
-
-font-family: Nunito;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-
-color: #000000;
-} 
-
-.bgblog main {
-    position: absolute;
-    width: 1440px;
-    height: 730px;
-    left: 0px;
-    top: 2260px;
-    
-    background: #F7F7F7;
-}
-
-.maisconteudo main {
-    position: absolute;
-    width: 530px;
-    height: 43px;
-    left: 128px;
-    top: 2351px;
-    
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 37px;
-    line-height: 43px;
-    /* identical to box height */
-    
-    color: #009688;
-}
-
-.ret1 main {
-    position: absolute;
-width: 319px;
-height: 193px;
-left: 128px;
-top: 2467px;
-
-background: #C4C4C4;
-}
-
-.titulo1 p {
-    position: absolute;
-width: 319px;
-height: 114px;
-left: 128px;
-top: 2671px;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 27px;
-line-height: 31px;
-
-color: #009688;
-}  
-
-.textoret1 p {
-    position: absolute;
-width: 319px;
-height: 114px;
-left: 128px;
-top: 2700px;
-
-font-family: Nunito;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
-
-color: #000000;
-}
-.ret2 main {
-    position: absolute;
-width: 319px;
-height: 193px;
-left: 556px;
-top: 2467px;
-
-background: #C4C4C4;
-}
-
-.titulo2 p {
-    position: absolute;
-width: 319px;
-height: 114px;
-left: 556px;
-top: 2671px;
-
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 27px;
-line-height: 31px;
-
-color: #009688;
-
-}  
-
-.textoret2 p {
-    position: absolute;
-    width: 319px;
-    height: 114px;
-    left: 556px;
-    top: 2700px;
+    .depoimento p {
     
     font-family: Nunito;
+    font-size: 37px;
     font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    
-    color: #000000;
-}
-.ret3 main {
-    position: absolute;
-width: 319px;
-height: 193px;
-left: 984px;
-top: 2467px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 50px;
+    color: #009688;
+    }
 
-background: #C4C4C4;
-}
+    .grid3{
+        display: grid;
+    }
 
-.titulo3 p {
-    position: absolute;
-width: 319px;
-height: 114px;
-left: 984px;
-top: 2671px;
+    .coment{
+        padding: 10px;
+        display: grid;
+    }
 
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 27px;
-line-height: 31px;
+    .coment img{
+        grid-row: 1;
+        grid-column: 1;
+       padding-right: 15px;
+    }
+    .coment p{
+        grid-row: 1;
+        grid-column: 2;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 30;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+    }
 
-color: #009688;
-}
+    .maisconteudo p{
 
-.textoret3 p {
-    position: absolute;
-width: 319px;
-height: 114px;
-left: 984px;
-top: 2700px;
+            background-color: darkgreen;
+            font-family: Nunito;
+            font-size: 37px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 0px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-left: 50px;
+            margin-top: 100px;
+            color: #009688;
+           
+    }
 
-font-family: Nunito;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
+    .video{
+        display: grid;
+        gap: 0px;
+    }
 
-color: #000000;
-}
 
-.ultimobotao main {
-    position: absolute;
-width: 207px;
-height: 31px;
-left: 623px;
-top: 2896px;
 
-font-family: Ubuntu;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 29px;
+    .video1 iframe {
+       
+        background: #C4C4C4;
+        }
+        
+        .video h1 {
+        
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 27px;
 
-color: #FF4081;
-}
+        
+        color: #009688;
+        }  
+        
+        .video p {
+       
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 20px;
+        line-height: 30px;
+        
+        color: #000000;
+        }
 
-.vertodososposts button {
-    position: absolute;
-width: 289px;
-height: 51px;
-left: 582px;
-top: 2886px;
+        .vertodososposts button {
+        
+        cursor: pointer;
+        font-size: 17px;
+        border: 2px solid #FF4081;
+        box-sizing: border-box;
+        border-radius: 62px;
+        margin-top: 40px;
+        line-height: 29px;
+        border: 2px solid #FF4081;
+        box-sizing: border-box;
+        border-radius: 62px;
+        
+        }
 
-border: 2px solid #FF4081;
-box-sizing: border-box;
-border-radius: 62px;
 
-position: absolute;
-width: 289px;
-height: 51px;
-left: 582px;
-top: 2886px;
+        @media only screen and (max-width: 400px) {
+           .ilustra-banner margin-left: 180px; 
+        }
+           
+        .section2 .ilustra-sec2 img {
+            margin-left: 50px;
+        }
 
-border: 2px solid #FF4081;
-box-sizing: border-box;
-border-radius: 62px;
-}
+            .section2 h3 {
+                margin-left: 80px;
+            }
 
+            .section2 p {
+                margin-left: 80px;
+            }
+            .section2 button {
+                margin-left: 80px;
+            }
+
+            .depoimento p {
+                margin-left: 80px;
+            }
+
+            .maisconteudo p {
+                font-size: 25px;
+            }
+           
+            .video {
+                margin-left: 100px;
+            }
